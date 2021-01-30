@@ -1,4 +1,5 @@
 import React from 'react';
+import Globe from './Globe.jsx';
 
 class GlobePage extends React.Component {
     constructor() {
@@ -32,6 +33,7 @@ class GlobePage extends React.Component {
                 <button onClick={() => this.handleClick(countryName)}>Get COVID data</button>
                 <p>{countryName}</p>
                 <p>Deaths: {afg}</p> */}
+                <Globe />
             </div>
         );
     }
