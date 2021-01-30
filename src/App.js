@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import NavBar from './screens/NavBar.jsx'
+import Landing from './screens/Landing.jsx';
+import Globe from './screens/Globe.jsx';
+import AboutUs from './screens/AboutUs.jsx';
+import CovidGuidelines from './screens/CovidGuidelines.jsx';
+import CovidStats from './screens/CovidStats.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route path='/' exact component={Landing} />
+          <Route path='/globe' component={Globe} />
+          <Route path='/about' component={AboutUs} />
+          <Route path='/guidelines' component={CovidGuidelines} />
+          <Route path='/stats' component={CovidStats} />
+        </Switch>
+      </Router>
     </div>
   );
 }
