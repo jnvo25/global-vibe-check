@@ -1,10 +1,13 @@
 import React from 'react';
-import Globe from 'react-globe.gl';
+import Reactglobe from 'react-globe.gl';
 
-function GlobePage() {
+function Globe() {
     return (
-    <Globe />
+        <Reactglobe
+            globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+            backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        />
     );
 }
 
-export default GlobePage;
+export default Globe;

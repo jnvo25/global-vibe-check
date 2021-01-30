@@ -7,6 +7,7 @@ import GlobePage from './screens/GlobePage.jsx';
 import AboutUs from './screens/AboutUs.jsx';
 import CovidGuidelines from './screens/CovidGuidelines.jsx';
 import CovidStats from './screens/CovidStats.jsx';
+import Globe from './screens/Globe.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Landing} />
           <Route path='/globe' component={GlobePage} />
+          <Route path='/reactglobe' component={Globe} />
           <Route path='/about' component={AboutUs} />
           <Route path='/guidelines' component={CovidGuidelines} />
           <Route path='/stats' component={CovidStats} />
