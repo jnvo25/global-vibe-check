@@ -17,7 +17,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route path='/' exact component={Landing} />
-          <Route path='/globe' component={GlobePage} />
+          <Route path='/globe' component={Globe} />
           <Route path='/about' component={AboutUs} />
           <Route path='/guidelines' component={CovidGuidelines} />
           <Route path='/stats' component={CovidStats} />

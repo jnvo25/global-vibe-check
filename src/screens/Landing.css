@@ -18,6 +18,7 @@
     background: #1B6F46;
     border-radius: 20px;
     border: none;
+    z-index: 10;
 }
 
 #launch-btn a {

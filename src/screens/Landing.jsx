@@ -32,7 +32,7 @@ function Landing() {
                 <p>How are countries around the world doing in terms of COVID-19 cases?</p>
             </div>
             <button id="launch-btn">
-                <Link to='/reactglobe'>Get started!</Link></button>
+                <Link to='/globe'>Get started!</Link></button>
         </div>
     );
 }
