@@ -1,0 +1,13 @@
+#header {
+    text-align: start;
+    padding: 20px 0px 10px 30px;
+    color: white;
+}
+
+#cdc {
+    position: absolute;
+    right: 3%;
+    bottom: 0%;
+    color: grey;
+    margin-bottom: 10px;
+}

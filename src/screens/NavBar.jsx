@@ -36,7 +36,7 @@ export default function NavBar() {
                         {/* <NavDropdown.Divider />
                         <NavDropdown.Item>Separated link</NavDropdown.Item> */}
                     </NavDropdown>
-                    <LinkContainer to="/globe">
+                    <LinkContainer to="/reactglobe">
                         <Nav.Link>Interactive Global Map</Nav.Link>
                     </LinkContainer>
                 </Nav>

@@ -13,7 +13,7 @@ function generateRandomStyle() {
         top: String(Math.floor(Math.random() * 100 + 1)) + "%",
         height: dimensions,
         width: dimensions,
-        boxShadow: "0px 0px 20px yellow"
+        boxShadow: "0px 0px 10px yellow",
     }
 }
 
@@ -32,7 +32,7 @@ function Landing() {
                 <p>How are countries around the world doing in terms of COVID-19 cases?</p>
             </div>
             <button id="launch-btn">
-                <Link to='/globe'>Get started!</Link></button>
+                <Link to='/reactglobe'>Get started!</Link></button>
         </div>
     );
 }

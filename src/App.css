@@ -1,6 +1,7 @@
 .App {
     text-align: center;
     background-color: #2B2B2B;
+    font-family: 'Inter', sans-serif;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: transparent;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
