@@ -22,6 +22,9 @@ function Globe() {
         console.log(label.properties.name);
         setShow(true);
         setName(label.properties.name);
+        // Object.keys(label.properties) to see all available data
+        
+        // API CALLS IN HERE
     }
     useEffect(()=> {
         var data = require('../datasets/places.json');
