@@ -1,9 +1,10 @@
-import react from 'react';
+import React from 'react';
+import Globe from 'react-globe.gl';
 
-function Globe() {
+function GlobePage() {
     return (
-        <div></div>
+    <Globe />
     );
 }
 
-export default Globe;
+export default GlobePage;

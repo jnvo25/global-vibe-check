@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: #C4C4C4;
+}
+
+.about-profile {
+    max-width: 75vw;
+    display: grid;
+    padding: 1em;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 3em;
+    color: #C4C4C4;
+    border-radius: 20px;
+    border: solid 2px #C4C4C4;
+    margin: 1em;
+}
+
+.about-profile h2,
+.about-profile h3 {
+    margin: 0;
+}
+
+.about-profile-img {
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+
+/* Responsive:Maintain Circle Shape */
+
+.about-profile-img::after {
+    content: "";
+    height: auto;
+    padding-bottom: 100%;
+    display: block;
+}
+
+.natisha {
+    background-image: url("https://i.pinimg.com/originals/4a/b8/bc/4ab8bc2e18821c96dc2b2bf741b5179c.jpg");
+    background-size: cover;
+}
+
+.fab {
+    font-size: 30px;
+    color: #51D1FA;
+    margin-right: 15px;
+}
+
+.fab:hover {
+    color: white;
+}
+
+.earth-cartoon {
+    position: fixed;
+    left: 80%;
+    top: 60%;
+    height: 40%;
+    width: 20%;
+}
