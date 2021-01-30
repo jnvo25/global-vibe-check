@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
 
-
 function generateRandomStyle() {
     var dimensions = Math.floor(Math.random() * 10 + 1);
     return {
