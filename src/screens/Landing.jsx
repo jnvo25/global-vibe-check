@@ -17,11 +17,15 @@ function generateRandomStars() {
     }
 }
 
-function Landing() {
+export default function Landing() {
     const numStars = 40;
     const stars = [];
     for (let i = 0; i < numStars; i++) {
+<<<<<<< HEAD
         stars.push(<span className="star" style={generateRandomStars()}></span>);
+=======
+        stars.push(<span className="star" style={generateRandomStyle()} />);
+>>>>>>> 667cea27b4d13cc2644d47575cd483416eafee48
     }
     return (
         <Container>
@@ -56,5 +60,3 @@ function Landing() {
         </Container>
     );
 }
-
-export default Landing;
