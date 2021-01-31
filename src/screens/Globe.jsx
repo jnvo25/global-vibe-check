@@ -22,6 +22,7 @@ function Globe() {
     const [covidStats, setCovidStats] = useState("null");
     const [countryRanking, setCountryRanking] = useState("null");
     const [vaccineStats, setVaccineStats] = useState("null");
+    const [isLoading, setLoading] = useState(false);
     var covidRankings = null;
 
     function getCovidRankings(data) {
@@ -39,6 +40,7 @@ function Globe() {
     }
 
     function handleClick(label) {
+        setLoading(true);
         console.log(label.properties.nameascii);
         console.log(label.properties.adm0name);
         var countryName = label.properties.adm0name;
@@ -82,6 +84,7 @@ function Globe() {
                 }
                 console.log(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
                 setVaccineStats(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
+                setLoading(false);
             })
             .catch((e) => console.log(e));
 
@@ -113,7 +116,9 @@ function Globe() {
                 onHide={() => setShow(false)}
                 covidStats={covidStats}
                 countryRanking={countryRanking}
-                vaccineStats = {vaccineStats} />
+                vaccineStats = {vaccineStats}
+                isLoading = {isLoading}
+            />
             <Reactglobe
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
