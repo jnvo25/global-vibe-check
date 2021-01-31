@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
     background-color: black;
     font-family: 'Inter', sans-serif;
@@ -16,40 +18,35 @@ body {
     margin: 1em;
 }
 
-.about-profile h2,
-.about-profile h3 {
-    margin: 0;
+.about-profile p, .about-profile a{
+    text-align: left;
+}
+.name{
+    font-size: 25px;
 }
 
 .about-profile-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
     border-radius: 50%;
     background-color: lightblue;
-}
-
-
-/* Responsive:Maintain Circle Shape */
-
-.about-profile-img::after {
-    content: "";
-    height: auto;
-    padding-bottom: 100%;
-    display: block;
 }
 
 .natisha {
     background-image: url("https://i.pinimg.com/originals/4a/b8/bc/4ab8bc2e18821c96dc2b2bf741b5179c.jpg");
     background-size: cover;
 }
-
-.fab {
+.react-icons {
     font-size: 30px;
+    margin-right: 30px;
     color: #51D1FA;
-    margin-right: 15px;
-}
+  }
 
-.fab:hover {
-    color: white;
-}
+  .react-icons:hover{
+      color:white;
+  }
 
 .earth-cartoon {
     position: fixed;

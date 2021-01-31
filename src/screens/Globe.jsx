@@ -42,6 +42,7 @@ function Globe() {
         console.log(label.properties.adm0name);
         const countryName = label.properties.adm0name;
         setShow(true);
+
         setName(label.properties.nameascii);
         setCountry(countryName);
         
@@ -75,6 +76,7 @@ function Globe() {
                 console.log(vaccineStats);
             })
             .catch((e) => console.log(e));
+
     }
     useEffect(() => {
         var data = require('../datasets/places.json');
