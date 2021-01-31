@@ -1,5 +1,4 @@
 const functions = require('firebase-functions');
-require('dotenv').config()
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -13,7 +12,7 @@ const app = express();
 
 app.use(cors());
 
-async function call (location) {
+async function call (location, apikey) {
     var axios = require('axios');
 
     var config = {
@@ -22,7 +21,7 @@ async function call (location) {
         headers: {
             'query': location,
             'orientation': 'landscape',
-            'client_id': process.env.US_KEY
+            'client_id': apikey
         }
     };
 
@@ -37,7 +36,7 @@ async function call (location) {
 }
 
 async function run(req, res) {
-    const data = await call(req.query.location);
+    const data = await call(req.query.location, req.query.apikey);
     res.send(data);
 }
 
