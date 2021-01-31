@@ -2,10 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Global Vibe Check
+## Global Vibe Check
 
 This project was created for UCI's 2021 Hackathon. This immaculate team of four decided to vibe check Covid-19 around the world.
-We used [Figma to prototype] (https://www.figma.com/file/uUWwKVkRFtQbPUknbFNPtA/Prototype?node-id=0%3A1) our web app to have the most vibes.
+We used [Figma to prototype](https://www.figma.com/file/uUWwKVkRFtQbPUknbFNPtA/Prototype?node-id=0%3A1) our web app to have the most vibes.
 We used API's to include an interactive globe and to extract Covid-19 data.
 
 ## Available Scripts
