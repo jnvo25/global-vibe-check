@@ -37,6 +37,7 @@ body {
 .natisha {
     background-image: url("https://i.pinimg.com/originals/4a/b8/bc/4ab8bc2e18821c96dc2b2bf741b5179c.jpg");
     background-size: cover;
+    /*transform: translate();*/
 }
 .react-icons {
     font-size: 30px;
