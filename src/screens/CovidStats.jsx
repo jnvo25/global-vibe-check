@@ -46,7 +46,7 @@ class CovidStats extends React.Component {
             <div class="covid-stats-container">
                 <Stars />
                 <div className="wrapper">
-                    <div className="pt-5"></div>
+                    
 
 
                     <header>
@@ -56,15 +56,13 @@ class CovidStats extends React.Component {
                         </div>
                     </header>
                     <div className="pt-5"></div>
-                    <div className="pt-5"></div>
-                    <div className="pt-5"></div>
-                    <div className="pt-5"></div>
+                    
                     <div className="Both-cards-with-text">
                         <Container>
                             <Row>
                                 <Col md={8}>
 
-                                    <Card style={{ height: '25rem', width: '25rem', backgroundColor: '#d6adff' }}>
+                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)' , borderRadius: "30px"}}>
                                         <Card.Body>
                                             <Card.Text>
 
@@ -85,7 +83,7 @@ class CovidStats extends React.Component {
                                 </Col>
 
                                 <Col>
-                                    <Card style={{ height: '25rem', width: '25rem', backgroundColor: '#c285ff' }}>
+                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)', borderRadius: "30px"}}>
                                         <Card.Body>
                                             <Card.Text>
 
@@ -113,7 +111,8 @@ class CovidStats extends React.Component {
                 <div className="pt-5"></div>
                 <div className="pt-5"></div>
                 <div className="pt-5"></div>
-
+                <div className="pt-5"></div>
+                <div className="pt-5"></div>
             </div>
 
         );
