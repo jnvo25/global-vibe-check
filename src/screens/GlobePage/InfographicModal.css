@@ -9,8 +9,11 @@
 
 .card-image {
     grid-area: image;
-    background: url("https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg");
     background-size: cover;
+    height: 380px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
     /* border-radius: 20px 20px 0 0; */
 }
 
@@ -51,7 +54,7 @@
 
 .card-links {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .list-group-flush {
