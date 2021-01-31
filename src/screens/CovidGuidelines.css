@@ -1,3 +1,7 @@
+* {
+    z-index: 1;
+}
+
 #header {
     text-align: start;
     padding: 20px 0px 10px 30px;
@@ -5,9 +9,17 @@
 }
 
 #cdc {
-    position: absolute;
+    position: fixed;
     right: 3%;
     bottom: 0%;
     color: grey;
     margin-bottom: 10px;
+}
+
+#earth-cartoon-mask {
+    position: fixed;
+    left: 80%;
+    top: 60%;
+    height: 35%;
+    width: 18%;
 }

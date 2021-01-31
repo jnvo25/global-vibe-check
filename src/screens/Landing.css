@@ -1,19 +1,14 @@
-#welcome-text {
-    margin: 200px auto 40px auto;
-    width: 50%;
-    height: 40%;
-    padding: 40px 20px 200px 20px;
+.welcome-text {
     background-color: #1C4772;
-    border-radius: 20px;
-    color: white;
+    border-radius: 30px;
     position: relative;
     z-index: 10;
 }
 
 #launch-btn {
-    margin: 0px auto 300px auto;
-    padding: 20px 5px;
-    width: 10%;
+    margin: 0px auto 200px auto;
+    padding: 20px 40px;
+    width: 20%;
     height: 10%;
     background: #1B6F46;
     border-radius: 20px;
@@ -28,13 +23,6 @@
 
 .star {
     z-index: 1;
-    background-color: purple;
-    animation: glow 1s infinite alternate;
-}
-
-.landing-page{
-    padding: 100px;
-    background-color: purple;
     animation: glow 1s infinite alternate;
 }
 

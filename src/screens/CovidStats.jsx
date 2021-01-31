@@ -1,4 +1,6 @@
 import react from 'react';
+import Stars from '../components/Stars.jsx';
+
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 
@@ -6,6 +8,7 @@ export default function CovidStats() {
     return (
         
         <div class="covid-stats-container">
+            <Stars />
             <div className="wrapper">
             <div className="pt-5"></div>
         
