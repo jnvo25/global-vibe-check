@@ -48,6 +48,15 @@ function InfographicModal(props) {
         }
     }
 
+    function travelSite(country, city) {
+        if (country === "United States of America") {
+            country = "usa";
+        } else if (country === "United Kingdom") {
+            country = "the-united-kingdom";
+        }
+        return "https://www.lonelyplanet.com/" + country.toLowerCase().split(' ').join('-') + '/' + city.toLowerCase().split(' ').join('-');
+    }
+
     return (
         <div>
             <Modal
@@ -84,7 +93,7 @@ function InfographicModal(props) {
                         </ListGroup>
                         <Card.Body className="card-links">
                             <Card.Link href="https://wwwnc.cdc.gov/travel/noticescovid19">CDC Travel Recommendations</Card.Link>
-                            <Card.Link href="#">Travel Forms</Card.Link>
+                            <Card.Link href={travelSite(props.country, props.name)}>Travel Guide</Card.Link>
                         </Card.Body>
                     </Card>
                 <Modal.Footer>

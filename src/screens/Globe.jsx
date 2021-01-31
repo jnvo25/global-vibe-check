@@ -99,7 +99,7 @@ function Globe() {
             return 'Vatican City';
         } else if (country === 'Swaziland') {
             return 'South Africa';
-        } else if (country === 'United States of America' || country === 'USA') {
+        } else if (country === 'United States of America' || country === 'US') {
             return 'USA';
         } else if (country === 'United Kingdom') {
             return 'UK';
