@@ -10,13 +10,13 @@ export default function NavBar() {
     // const [isOpen, setOpen] = useState(false);
 
     return(
-        <Navbar sticky="top" variant="dark" expand="lg" className="bottom-nav pb-0" >
+        <Navbar sticky="top" variant="dark" expand="lg" className="bottom-nav pb-0">
             <LinkContainer to="/" exact>
                 <Navbar.Brand>
                     <img className="brand" 
                         // open={isOpen}
                         style={{width: "100px"}} 
-                        src={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Ftransparent-global-logo.png?alt=media&token=294cb8c8-ebf9-492f-a397-109ea4325d01"} 
+                        src={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fglobal-vibe-logo-new.png?alt=media&token=febf4ff9-c51e-4254-b5af-cf0235641033"} 
                         alt="Hero" />
                 </Navbar.Brand>
             </LinkContainer>
