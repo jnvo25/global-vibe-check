@@ -29,6 +29,8 @@ function Globe() {
     const [vacStats, setVacStats] = useState("null");
     const [isLoading, setLoading] = useState(false);
     const [cdcUrl, setCdcUrl] = useState("null");
+    const [imageURL, setImage] = useState("https://unsplash.com/photos/EOAzJZPzxIk");
+
     var covidRankings = null;
 
     function getCovidRankings(data) {
@@ -88,7 +90,25 @@ function Globe() {
                 setLoading(false);
             })
             .catch((e) => console.log(e));
-        
+
+
+
+        var config = {
+            method: 'get',
+            url: 'http://localhost:5001/global-vibe-check/us-central1/sendPhoto?location='+label.properties.nameascii,
+            headers: { }
+        };
+
+        require('axios')(config)
+            .then(function (response) {
+                console.log(JSON.stringify(response.data));
+                setImage(JSON.stringify(response.data));
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+
+
     }
 
     function colorByRisk(risk) {
@@ -182,6 +202,7 @@ function Globe() {
                 vacStats={vacStats}
                 isLoading = {isLoading}
                 cdcUrl = {cdcUrl}
+                imageURL = {imageURL}
             />
             <Reactglobe
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"

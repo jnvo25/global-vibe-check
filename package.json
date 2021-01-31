@@ -47,6 +47,8 @@
         ]
     },
     "react-dotenv": {
-        "whitelist": ["RAPID_API_KEY"]
+        "whitelist": [
+            "RAPID_API_KEY"
+        ]
     }
 }
