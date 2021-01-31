@@ -83,7 +83,7 @@ function InfographicModal(props) {
                             <ListGroupItem></ListGroupItem>
                         </ListGroup>
                         <Card.Body className="card-links">
-                            <Card.Link href="https://wwwnc.cdc.gov/travel/noticescovid19">CDC Analysis</Card.Link>
+                            <Card.Link href="https://wwwnc.cdc.gov/travel/noticescovid19">CDC Travel Recommendations</Card.Link>
                             <Card.Link href="#">Travel Forms</Card.Link>
                         </Card.Body>
                     </Card>
