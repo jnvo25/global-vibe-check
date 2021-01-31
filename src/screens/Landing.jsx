@@ -29,7 +29,8 @@ function Landing() {
             {stars}
             <div id="welcome-text">
                 <h2>Welcome to Global Vibe Check!</h2>
-                <p>How are countries around the world doing in terms of COVID-19 cases?</p>
+                <br />
+                <p>This website has information on the covid cases, deaths and severity status of other countries around the world. Are you wondering how other are doing compared to your country? CLICK the get started button below.</p>
             </div>
             <button id="launch-btn">
                 <Link to='/globe'>Get started!</Link></button>
