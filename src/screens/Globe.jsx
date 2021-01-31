@@ -95,7 +95,8 @@ function Globe() {
 
         var config = {
             method: 'get',
-            url: 'http://localhost:5001/global-vibe-check/us-central1/sendPhoto?location='+label.properties.nameascii,
+            // url: 'http://localhost:5001/global-vibe-check/us-central1/sendPhoto?location=' +label.properties.nameascii,
+            url: 'https://us-central1-global-vibe-check.cloudfunctions.net/sendPhoto?location='+label.properties.nameascii,
             headers: { }
         };
 
