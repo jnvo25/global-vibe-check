@@ -12,8 +12,8 @@ class CovidStats extends React.Component {
         }
     }
 
-    componentDidMount() {
-        fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
+    async componentDidMount() {
+        await fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
             {
                 headers: {
                     "x-rapidapi-key": window.env.RAPID_API_KEY,
@@ -51,7 +51,7 @@ class CovidStats extends React.Component {
 
                     <header>
                         <div className="Heading-for-the-page">
-                            <h1 class="text-white font-weight-light pb-1 pt-1 text-middle" ><div style={{color: "#c64dff"}}>Vibes are Horrendous</div></h1>
+                            <h1 class="text-white font-weight-light pb-1 pt-1 text-middle" ><div style={{color: "#c64dff"}}>The Vibes are Horrendous  (Global Statistics)</div></h1>
                             <h6 class="text-light font-weight-light pb-1 pt-1 text-middle" ><div style={{color: "#c4c4c4"}}>Last update: {getCurrentDateTime()}</div></h6>
                         </div>
                     </header>

@@ -74,14 +74,14 @@ function InfographicModal(props) {
                 </Modal.Header>
                     <Card>
                         <Card.Img variant="top" className="card-image" src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80" />
-                        <Card.Title style={{padding: "20px 0px 0px 20px", color: props.vacStats != undefined ? colorByRisk(props.vacStats.Infection_Risk) : "gray"}}>{props.name}, {props.country} | Vibes are {props.vacStats != undefined ? getVibes(props.vacStats.Infection_Risk) : "..not found"}</Card.Title>
+                        <Card.Title style={{padding: "20px 0px 0px 20px", color: props.vacStats !== undefined ? colorByRisk(props.vacStats.Infection_Risk) : "gray"}}>{props.name}, {props.country} | Vibes are {props.vacStats !== undefined ? getVibes(props.vacStats.Infection_Risk) : "..not found"}</Card.Title>
                         <Card.Body>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
 
                             <ListGroupItem>Active COVID-19 cases in {props.country}: <strong>{props.covidStats.confirmed - props.covidStats.recovered - props.covidStats.deaths}</strong></ListGroupItem>
-                            <ListGroupItem>New cases (today): <strong>{props.vacStats != undefined ? props.vacStats.NewCases: 0}</strong></ListGroupItem>
+                            <ListGroupItem>New cases (today): <strong>{props.vacStats !== undefined ? props.vacStats.NewCases: 0}</strong></ListGroupItem>
                             <ListGroupItem>{props.country} ranked <strong>{props.countryRanking}{suffix(props.countryRanking)}</strong> in the world in active COVID-19 cases (as a percentage of the population)</ListGroupItem>
                             <ListGroupItem></ListGroupItem>
                         </ListGroup>
