@@ -84,13 +84,19 @@ function InfographicModal(props) {
                             <ListGroupItem>Active COVID-19 cases in {props.country}: <strong>{props.covidStats.confirmed - props.covidStats.recovered - props.covidStats.deaths}</strong></ListGroupItem>
                             <ListGroupItem>New cases (today): <strong>{props.vacStats !== undefined ? props.vacStats.NewCases : 0}</strong></ListGroupItem>
                             <ListGroupItem>{props.country} ranked <strong>{props.countryRanking}{suffix(props.countryRanking)}</strong> in the world in active COVID-19 cases (as a percentage of the population)</ListGroupItem>
-                            
+                            <ListGroupItem><Card.Link href="/guidelines">
+                                <div style={{color: props.vacStats !== undefined ? colorByRisk(props.vacStats.Infection_Risk) : "gray"}}>What do these colors mean?</div>
+                            </Card.Link>
+                            </ListGroupItem>
                         </ListGroup>
                         <Card.Body className="card-links">
                             <Card.Link href={props.cdcUrl} target="_blank">CDC Travel Recommendations</Card.Link>
                             <Card.Link href={travelSite(props.country, props.name)} target="_blank">Travel Guide</Card.Link>
                             <Button onClick={handleClick}>Close</Button>
                         </Card.Body>
+                        <Card.Body>
+                            
+                            </Card.Body>
                     </Card>
                     
                 </LoadingOverlay>
