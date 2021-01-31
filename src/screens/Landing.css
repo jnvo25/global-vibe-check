@@ -28,13 +28,13 @@
 
 .star {
     z-index: 1;
-    background-color: purple;
+    /*background-color: purple;*/
     animation: glow 1s infinite alternate;
 }
 
 .landing-page{
     padding: 100px;
-    background-color: purple;
+    /*background-color: purple;*/
     animation: glow 1s infinite alternate;
 }
 
