@@ -39,7 +39,8 @@
             "ls_name": "Vatican City",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 7
+            "min_zoom": 7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [12.453387, 41.903282, 12.453387, 41.903282],
         "geometry": {
@@ -85,7 +86,8 @@
             "ls_name": "San Marino",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6.1
+            "min_zoom": 6.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-san-marino"
         },
         "bbox": [12.44177, 43.936096, 12.44177, 43.936096],
         "geometry": {
@@ -131,7 +133,8 @@
             "ls_name": "Vaduz",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 6.7
+            "min_zoom": 6.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-liechtenstein"
         },
         "bbox": [9.516669, 47.133724, 9.516669, 47.133724],
         "geometry": {
@@ -177,7 +180,8 @@
             "ls_name": "Lobamba",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [31.199997, -26.466667, 31.199997, -26.466667],
         "geometry": {
@@ -223,7 +227,8 @@
             "ls_name": "Luxembourg",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-luxembourg"
         },
         "bbox": [6.130003, 49.61166, 6.130003, 49.61166],
         "geometry": {
@@ -269,7 +274,8 @@
             "ls_name": "Palikir",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-micronesia"
         },
         "bbox": [158.149974, 6.916644, 158.149974, 6.916644],
         "geometry": {
@@ -315,7 +321,8 @@
             "ls_name": "Majuro",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-marshall-islands"
         },
         "bbox": [171.38, 7.103004, 171.38, 7.103004],
         "geometry": {
@@ -361,7 +368,8 @@
             "ls_name": "Funafuti",
             "ls_match": 0,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-tuvalu"
         },
         "bbox": [179.216647, -8.516652, 179.216647, -8.516652],
         "geometry": {
@@ -407,7 +415,8 @@
             "ls_name": "Melekeok",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-palau"
         },
         "bbox": [134.626548, 7.487396, 134.626548, 7.487396],
         "geometry": {
@@ -453,7 +462,8 @@
             "ls_name": null,
             "ls_match": 2,
             "checkme": 0,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-western-sahara"
         },
         "bbox": [-9.652522, 26.119167, -9.652522, 26.119167],
         "geometry": {
@@ -499,7 +509,8 @@
             "ls_name": "Monaco",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-monaco"
         },
         "bbox": [7.406913, 43.739646, 7.406913, 43.739646],
         "geometry": {
@@ -545,7 +556,8 @@
             "ls_name": "Tarawa",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-kiribati"
         },
         "bbox": [173.017571, 1.338188, 173.017571, 1.338188],
         "geometry": {
@@ -591,7 +603,8 @@
             "ls_name": "Moroni",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-comoros"
         },
         "bbox": [43.240244, -11.704158, 43.240244, -11.704158],
         "geometry": {
@@ -637,7 +650,8 @@
             "ls_name": "Andorra",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 6
+            "min_zoom": 6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-andorra"
         },
         "bbox": [1.516486, 42.500001, 1.516486, 42.500001],
         "geometry": {
@@ -683,7 +697,8 @@
             "ls_name": "Port-of-Spain",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-trinidad-and-tobago"
         },
         "bbox": [-61.517031, 10.651997, -61.517031, 10.651997],
         "geometry": {
@@ -729,7 +744,8 @@
             "ls_name": "Kigali",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-rwanda"
         },
         "bbox": [30.058586, -1.951644, 30.058586, -1.951644],
         "geometry": {
@@ -775,7 +791,8 @@
             "ls_name": "Mbabane",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [31.133335, -26.316651, 31.133335, -26.316651],
         "geometry": {
@@ -821,7 +838,8 @@
             "ls_name": "Juba",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-sudan"
         },
         "bbox": [31.580026, 4.829975, 31.580026, 4.829975],
         "geometry": {
@@ -867,7 +885,8 @@
             "ls_name": "The Hague",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-netherlands"
         },
         "bbox": [4.269961, 52.080037, 4.269961, 52.080037],
         "geometry": {
@@ -913,7 +932,8 @@
             "ls_name": "Ljubljana",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-slovenia"
         },
         "bbox": [14.514969, 46.055288, 14.514969, 46.055288],
         "geometry": {
@@ -959,7 +979,8 @@
             "ls_name": "Bratislava",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-slovakia"
         },
         "bbox": [17.116981, 48.150018, 17.116981, 48.150018],
         "geometry": {
@@ -1005,7 +1026,8 @@
             "ls_name": "Doha",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-qatar"
         },
         "bbox": [51.532968, 25.286556, 51.532968, 25.286556],
         "geometry": {
@@ -1051,7 +1073,8 @@
             "ls_name": "Podgorica",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-montenegro"
         },
         "bbox": [19.266307, 42.465973, 19.266307, 42.465973],
         "geometry": {
@@ -1097,7 +1120,8 @@
             "ls_name": "Kotte",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-sri-lanka"
         },
         "bbox": [79.949993, 6.900004, 79.949993, 6.900004],
         "geometry": {
@@ -1143,7 +1167,8 @@
             "ls_name": "Baguio City",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-philippines"
         },
         "bbox": [120.569943, 16.429991, 120.569943, 16.429991],
         "geometry": {
@@ -1189,7 +1214,8 @@
             "ls_name": "Dodoma",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-tanzania"
         },
         "bbox": [35.750004, -6.183306, 35.750004, -6.183306],
         "geometry": {
@@ -1235,7 +1261,8 @@
             "ls_name": "Bern",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-switzerland"
         },
         "bbox": [7.466975, 46.916683, 7.466975, 46.916683],
         "geometry": {
@@ -1281,7 +1308,8 @@
             "ls_name": "Laayoune",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-morocco"
         },
         "bbox": [-13.200006, 27.149982, -13.200006, 27.149982],
         "geometry": {
@@ -1327,7 +1355,8 @@
             "ls_name": "Pristina",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-kosovo"
         },
         "bbox": [21.165984, 42.66671, 21.165984, 42.66671],
         "geometry": {
@@ -1373,7 +1402,8 @@
             "ls_name": "Roseau",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-dominica"
         },
         "bbox": [-61.387013, 15.301016, -61.387013, 15.301016],
         "geometry": {
@@ -1419,7 +1449,8 @@
             "ls_name": "Djibouti",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-djibouti"
         },
         "bbox": [43.148002, 11.595014, 43.148002, 11.595014],
         "geometry": {
@@ -1465,7 +1496,8 @@
             "ls_name": "Putrajaya",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-malaysia"
         },
         "bbox": [101.701947, 2.91402, 101.701947, 2.91402],
         "geometry": {
@@ -1511,7 +1543,8 @@
             "ls_name": "Kyoto",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-japan"
         },
         "bbox": [135.748052, 35.031938, 135.748052, 35.031938],
         "geometry": {
@@ -1557,7 +1590,8 @@
             "ls_name": "Banjul",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-the-gambia"
         },
         "bbox": [-16.591701, 13.453876, -16.591701, 13.453876],
         "geometry": {
@@ -1603,7 +1637,8 @@
             "ls_name": "Skopje",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-north-macedonia"
         },
         "bbox": [21.433461, 42.000006, 21.433461, 42.000006],
         "geometry": {
@@ -1649,7 +1684,8 @@
             "ls_name": "Bridgetown",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-barbados"
         },
         "bbox": [-59.616527, 13.102003, -59.616527, 13.102003],
         "geometry": {
@@ -1695,7 +1731,8 @@
             "ls_name": "Porto-Novo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-benin"
         },
         "bbox": [2.616626, 6.483311, 2.616626, 6.483311],
         "geometry": {
@@ -1741,7 +1778,8 @@
             "ls_name": "Bujumbura",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [29.360006, -3.376087, 29.360006, -3.376087],
         "geometry": {
@@ -1787,7 +1825,8 @@
             "ls_name": "Kingstown",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-saint-vincent-and-the-grenadines"
         },
         "bbox": [-61.212062, 13.148279, -61.212062, 13.148279],
         "geometry": {
@@ -1833,7 +1872,8 @@
             "ls_name": "Castries",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-saint-lucia"
         },
         "bbox": [-61.000008, 14.001973, -61.000008, 14.001973],
         "geometry": {
@@ -1879,7 +1919,8 @@
             "ls_name": "Basseterre",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-st-kitts-and-nevis"
         },
         "bbox": [-62.717009, 17.30203, -62.717009, 17.30203],
         "geometry": {
@@ -1925,7 +1966,8 @@
             "ls_name": "Port Louis",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-mauritius"
         },
         "bbox": [57.499994, -20.166639, 57.499994, -20.166639],
         "geometry": {
@@ -1971,7 +2013,8 @@
             "ls_name": "Saint Georgee۪s",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-grenada"
         },
         "bbox": [-61.741643, 12.052633, -61.741643, 12.052633],
         "geometry": {
@@ -2017,7 +2060,8 @@
             "ls_name": "Manama",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.6
+            "min_zoom": 5.6,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bahrain"
         },
         "bbox": [50.583052, 26.236136, 50.583052, 26.236136],
         "geometry": {
@@ -2063,7 +2107,8 @@
             "ls_name": "Saint John's",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5.1
+            "min_zoom": 5.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-antigua-and-barbuda"
         },
         "bbox": [-61.850034, 17.118037, -61.850034, 17.118037],
         "geometry": {
@@ -2109,7 +2154,8 @@
             "ls_name": "Montevideo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-56.172998, -34.856096, -56.172998, -34.856096],
         "geometry": {
@@ -2155,7 +2201,8 @@
             "ls_name": "Lome",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-togo"
         },
         "bbox": [1.220811, 6.133883, 1.220811, 6.133883],
         "geometry": {
@@ -2201,7 +2248,8 @@
             "ls_name": "Tunis",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-tunisia"
         },
         "bbox": [10.179678, 36.802778, 10.179678, 36.802778],
         "geometry": {
@@ -2247,7 +2295,8 @@
             "ls_name": "Abu Dhabi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-united-arab-emirates"
         },
         "bbox": [54.366593, 24.466684, 54.366593, 24.466684],
         "geometry": {
@@ -2293,7 +2342,8 @@
             "ls_name": "Ashgabat",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-turkmenistan"
         },
         "bbox": [58.383299, 37.949995, 58.383299, 37.949995],
         "geometry": {
@@ -2339,7 +2389,8 @@
             "ls_name": "Lusaka",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-zambia"
         },
         "bbox": [28.281382, -15.414698, 28.281382, -15.414698],
         "geometry": {
@@ -2385,7 +2436,8 @@
             "ls_name": "Harare",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-zimbabwe"
         },
         "bbox": [31.042764, -17.815844, 31.042764, -17.815844],
         "geometry": {
@@ -2431,7 +2483,8 @@
             "ls_name": "Dili",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-timor-leste"
         },
         "bbox": [125.579456, -8.559388, 125.579456, -8.559388],
         "geometry": {
@@ -2477,7 +2530,8 @@
             "ls_name": "Port-Vila",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [168.316641, -17.73335, 168.316641, -17.73335],
         "geometry": {
@@ -2523,7 +2577,8 @@
             "ls_name": "Tegucigalpa",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-honduras"
         },
         "bbox": [-87.219475, 14.103991, -87.219475, 14.103991],
         "geometry": {
@@ -2569,7 +2624,8 @@
             "ls_name": "Georgetown1",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-guyana"
         },
         "bbox": [-58.167029, 6.801974, -58.167029, 6.801974],
         "geometry": {
@@ -2615,7 +2671,8 @@
             "ls_name": "Reykjavik",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-iceland"
         },
         "bbox": [-21.950014, 64.150024, -21.950014, 64.150024],
         "geometry": {
@@ -2661,7 +2718,8 @@
             "ls_name": "Port-au-Prince",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-haiti"
         },
         "bbox": [-72.33798, 18.54297, -72.33798, 18.54297],
         "geometry": {
@@ -2707,7 +2765,8 @@
             "ls_name": "Kampala",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-uganda"
         },
         "bbox": [32.581378, 0.318605, 32.581378, 0.318605],
         "geometry": {
@@ -2753,7 +2812,8 @@
             "ls_name": "Paramaribo",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-suriname"
         },
         "bbox": [-55.167031, 5.83503, -55.167031, 5.83503],
         "geometry": {
@@ -2799,7 +2859,8 @@
             "ls_name": "Niamey",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-niger"
         },
         "bbox": [2.11471, 13.518652, 2.11471, 13.518652],
         "geometry": {
@@ -2845,7 +2906,8 @@
             "ls_name": "Dushanbe",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-tajikistan"
         },
         "bbox": [68.773879, 38.560035, 68.773879, 38.560035],
         "geometry": {
@@ -2891,7 +2953,8 @@
             "ls_name": "Asuncion",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-paraguay"
         },
         "bbox": [-57.643451, -25.294457, -57.643451, -25.294457],
         "geometry": {
@@ -2937,7 +3000,8 @@
             "ls_name": "Managua",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-nicaragua"
         },
         "bbox": [-86.270438, 12.154962, -86.270438, 12.154962],
         "geometry": {
@@ -2983,7 +3047,8 @@
             "ls_name": "Freetown",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-sierra-leone"
         },
         "bbox": [-13.236162, 8.471957, -13.236162, 8.471957],
         "geometry": {
@@ -3029,7 +3094,8 @@
             "ls_name": "Islamabad",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-pakistan"
         },
         "bbox": [73.164689, 33.701942, 73.164689, 33.701942],
         "geometry": {
@@ -3075,7 +3141,8 @@
             "ls_name": "Kathmandu",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-nepal"
         },
         "bbox": [85.314696, 27.718638, 85.314696, 27.718638],
         "geometry": {
@@ -3121,7 +3188,8 @@
             "ls_name": "Bloemfontein",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-africa"
         },
         "bbox": [26.229913, -29.119994, 26.229913, -29.119994],
         "geometry": {
@@ -3167,7 +3235,8 @@
             "ls_name": "Pretoria",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": ,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-africa"
         },
         "bbox": [28.227483, -25.704975, 28.227483, -25.704975],
         "geometry": {
@@ -3213,7 +3282,8 @@
             "ls_name": "Port Moresby",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-papua-new-guinea"
         },
         "bbox": [147.192504, -9.464708, 147.192504, -9.464708],
         "geometry": {
@@ -3259,7 +3329,8 @@
             "ls_name": "Honiara",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-solomon-islands"
         },
         "bbox": [159.949766, -9.437994, 159.949766, -9.437994],
         "geometry": {
@@ -3305,7 +3376,8 @@
             "ls_name": "Panama City1",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-panama"
         },
         "bbox": [-79.534983, 8.969963, -79.534983, 8.969963],
         "geometry": {
@@ -3351,7 +3423,8 @@
             "ls_name": "Rabat",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-morocco"
         },
         "bbox": [-6.836408, 34.025307, -6.836408, 34.025307],
         "geometry": {
@@ -3397,7 +3470,8 @@
             "ls_name": "Chisinau",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-moldova"
         },
         "bbox": [28.857711, 47.005024, 28.857711, 47.005024],
         "geometry": {
@@ -3443,7 +3517,8 @@
             "ls_name": "Maputo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-mozambique"
         },
         "bbox": [32.587217, -25.953332, 32.587217, -25.953332],
         "geometry": {
@@ -3489,7 +3564,8 @@
             "ls_name": "Mogadishu",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-somalia"
         },
         "bbox": [45.364732, 2.068627, 45.364732, 2.068627],
         "geometry": {
@@ -3535,7 +3611,8 @@
             "ls_name": "Muscat",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-oman"
         },
         "bbox": [58.593312, 23.613325, 58.593312, 23.613325],
         "geometry": {
@@ -3581,7 +3658,8 @@
             "ls_name": "Colombo",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-sri-lanka"
         },
         "bbox": [79.857751, 6.931966, 79.857751, 6.931966],
         "geometry": {
@@ -3627,7 +3705,8 @@
             "ls_name": "Ulaanbaatar",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-mongolia"
         },
         "bbox": [106.91467, 47.918619, 106.91467, 47.918619],
         "geometry": {
@@ -3673,7 +3752,8 @@
             "ls_name": "Windhoek",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-namibia"
         },
         "bbox": [17.083546, -22.570006, 17.083546, -22.570006],
         "geometry": {
@@ -3719,7 +3799,8 @@
             "ls_name": "Abuja",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-nigeria"
         },
         "bbox": [7.531382, 9.085279, 7.531382, 9.085279],
         "geometry": {
@@ -3765,7 +3846,8 @@
             "ls_name": "Bissau",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-guinea-bissau"
         },
         "bbox": [-15.598361, 11.865024, -15.598361, 11.865024],
         "geometry": {
@@ -3811,7 +3893,8 @@
             "ls_name": "Amman",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-jordan"
         },
         "bbox": [35.931354, 31.951971, 35.931354, 31.951971],
         "geometry": {
@@ -3857,7 +3940,8 @@
             "ls_name": "Vilnius",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-lithuania"
         },
         "bbox": [25.316635, 54.683366, 25.316635, 54.683366],
         "geometry": {
@@ -3903,7 +3987,8 @@
             "ls_name": "Riga",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-latvia"
         },
         "bbox": [24.099965, 56.950024, 24.099965, 56.950024],
         "geometry": {
@@ -3949,7 +4034,8 @@
             "ls_name": "Bishkek",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-kyrgyzstan"
         },
         "bbox": [74.583258, 42.875025, 74.583258, 42.875025],
         "geometry": {
@@ -3995,7 +4081,8 @@
             "ls_name": "Maseru",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-lesotho"
         },
         "bbox": [27.483273, -29.316674, 27.483273, -29.316674],
         "geometry": {
@@ -4041,7 +4128,8 @@
             "ls_name": "Antananarivo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-madagascar"
         },
         "bbox": [47.514678, -18.914691, 47.514678, -18.914691],
         "geometry": {
@@ -4087,7 +4175,8 @@
             "ls_name": "Quito",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-ecuador"
         },
         "bbox": [-78.501997, -0.213042, -78.501997, -0.213042],
         "geometry": {
@@ -4133,7 +4222,8 @@
             "ls_name": "San Jose1",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-costa-rica"
         },
         "bbox": [-84.085997, 9.936958, -84.085997, 9.936958],
         "geometry": {
@@ -4179,7 +4269,8 @@
             "ls_name": "San Salvador",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-el-salvador"
         },
         "bbox": [-89.204987, 13.711948, -89.204987, 13.711948],
         "geometry": {
@@ -4225,7 +4316,8 @@
             "ls_name": "Kingston1",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-jamaica"
         },
         "bbox": [-76.767434, 17.977077, -76.767434, 17.977077],
         "geometry": {
@@ -4271,7 +4363,8 @@
             "ls_name": "Ndjamena",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-chad"
         },
         "bbox": [15.047202, 12.115042, 15.047202, 12.115042],
         "geometry": {
@@ -4317,7 +4410,8 @@
             "ls_name": "Malabo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-equatorial-guinea"
         },
         "bbox": [8.783278, 3.750015, 8.783278, 3.750015],
         "geometry": {
@@ -4363,7 +4457,8 @@
             "ls_name": "Asmara",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-eritrea"
         },
         "bbox": [38.933324, 15.333339, 38.933324, 15.333339],
         "geometry": {
@@ -4409,7 +4504,8 @@
             "ls_name": "Zagreb",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-croatia"
         },
         "bbox": [15.999995, 45.800007, 15.999995, 45.800007],
         "geometry": {
@@ -4455,7 +4551,8 @@
             "ls_name": "Tallinn",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-estonia"
         },
         "bbox": [24.728041, 59.433877, 24.728041, 59.433877],
         "geometry": {
@@ -4501,7 +4598,8 @@
             "ls_name": "Lilongwe",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-malawi"
         },
         "bbox": [33.783302, -13.983295, 33.783302, -13.983295],
         "geometry": {
@@ -4547,7 +4645,8 @@
             "ls_name": "Guatemala",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-guatemala"
         },
         "bbox": [-90.528911, 14.623081, -90.528911, 14.623081],
         "geometry": {
@@ -4593,7 +4692,8 @@
             "ls_name": "Libreville",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-gabon"
         },
         "bbox": [9.457965, 0.385389, 9.457965, 0.385389],
         "geometry": {
@@ -4639,7 +4739,8 @@
             "ls_name": "Suva",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-fiji"
         },
         "bbox": [178.441707, -18.133016, 178.441707, -18.133016],
         "geometry": {
@@ -4685,7 +4786,8 @@
             "ls_name": "Valparaiso2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-chile"
         },
         "bbox": [-71.622959, -33.045819, -71.622959, -33.045819],
         "geometry": {
@@ -4731,7 +4833,8 @@
             "ls_name": "Nouakchott",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-15.97534, 18.086427, -15.97534, 18.086427],
         "geometry": {
@@ -4777,7 +4880,8 @@
             "ls_name": "Bamako",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-mali"
         },
         "bbox": [-8.001985, 12.651961, -8.001985, 12.651961],
         "geometry": {
@@ -4823,7 +4927,8 @@
             "ls_name": "Beirut",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-lebanon"
         },
         "bbox": [35.507762, 33.873921, 35.507762, 33.873921],
         "geometry": {
@@ -4869,7 +4974,8 @@
             "ls_name": "Tbilisi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-georgia"
         },
         "bbox": [44.78885, 41.726956, 44.78885, 41.726956],
         "geometry": {
@@ -4915,7 +5021,8 @@
             "ls_name": "Astana",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-kazakhstan"
         },
         "bbox": [71.427774, 51.181125, 71.427774, 51.181125],
         "geometry": {
@@ -4961,7 +5068,8 @@
             "ls_name": "Vientiane",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-laos"
         },
         "bbox": [102.59998, 17.966693, 102.59998, 17.966693],
         "geometry": {
@@ -5007,7 +5115,8 @@
             "ls_name": "Brazzaville",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [15.282744, -4.25724, 15.282744, -4.25724],
         "geometry": {
@@ -5053,7 +5162,8 @@
             "ls_name": "Conakry",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-guinea"
         },
         "bbox": [-13.682181, 9.533469, -13.682181, 9.533469],
         "geometry": {
@@ -5099,7 +5209,8 @@
             "ls_name": "Yamoussoukro",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-ivory-coast"
         },
         "bbox": [-5.275503, 6.818381, -5.275503, 6.818381],
         "geometry": {
@@ -5145,7 +5256,8 @@
             "ls_name": "Ottawa",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-canada"
         },
         "bbox": [-75.701961, 45.418643, -75.701961, 45.418643],
         "geometry": {
@@ -5191,7 +5303,8 @@
             "ls_name": "Belgrade",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-serbia"
         },
         "bbox": [20.466045, 44.820591, 20.466045, 44.820591],
         "geometry": {
@@ -5237,7 +5350,8 @@
             "ls_name": "Bandar Seri Begawan",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-brunei"
         },
         "bbox": [114.933284, 4.883331, 114.933284, 4.883331],
         "geometry": {
@@ -5283,7 +5397,8 @@
             "ls_name": "Sucre",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bolivia"
         },
         "bbox": [-65.259516, -19.040971, -65.259516, -19.040971],
         "geometry": {
@@ -5329,7 +5444,8 @@
             "ls_name": "Belmopan",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-belize"
         },
         "bbox": [-88.767073, 17.252034, -88.767073, 17.252034],
         "geometry": {
@@ -5375,7 +5491,8 @@
             "ls_name": "Bangui",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-central-african-republic"
         },
         "bbox": [18.558288, 4.366644, 18.558288, 4.366644],
         "geometry": {
@@ -5421,7 +5538,8 @@
             "ls_name": "Yaounde",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-cameroon"
         },
         "bbox": [11.514705, 3.868647, 11.514705, 3.868647],
         "geometry": {
@@ -5467,7 +5585,8 @@
             "ls_name": "Tirana",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-albania"
         },
         "bbox": [19.818883, 41.327541, 19.818883, 41.327541],
         "geometry": {
@@ -5513,7 +5632,8 @@
             "ls_name": "Yerevan",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-armenia"
         },
         "bbox": [44.511606, 40.183097, 44.511606, 40.183097],
         "geometry": {
@@ -5559,7 +5679,8 @@
             "ls_name": "Baku",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-azerbaijan"
         },
         "bbox": [49.860271, 40.397218, 49.860271, 40.397218],
         "geometry": {
@@ -5605,7 +5726,8 @@
             "ls_name": "Phnom Penh",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-cambodia"
         },
         "bbox": [104.914689, 11.551976, 104.914689, 11.551976],
         "geometry": {
@@ -5651,7 +5773,8 @@
             "ls_name": "La Paz3",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bolivia"
         },
         "bbox": [-68.151931, -16.496028, -68.151931, -16.496028],
         "geometry": {
@@ -5697,7 +5820,8 @@
             "ls_name": "Cotonou",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-benin"
         },
         "bbox": [2.518045, 6.401954, 2.518045, 6.401954],
         "geometry": {
@@ -5743,7 +5867,8 @@
             "ls_name": "Sofia",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bulgaria"
         },
         "bbox": [23.314708, 42.685295, 23.314708, 42.685295],
         "geometry": {
@@ -5789,7 +5914,8 @@
             "ls_name": "Minsk",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-belarus"
         },
         "bbox": [27.564681, 53.901923, 27.564681, 53.901923],
         "geometry": {
@@ -5835,7 +5961,8 @@
             "ls_name": "Thimphu",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-bhutan"
         },
         "bbox": [89.639014, 27.472986, 89.639014, 27.472986],
         "geometry": {
@@ -5881,7 +6008,8 @@
             "ls_name": "Gaborone",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-botswana"
         },
         "bbox": [25.911948, -24.646313, 25.911948, -24.646313],
         "geometry": {
@@ -5927,7 +6055,8 @@
             "ls_name": "Canberra",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-australia"
         },
         "bbox": [149.129026, -35.283029, 149.129026, -35.283029],
         "geometry": {
@@ -5973,7 +6102,8 @@
             "ls_name": "Ouagadougou",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-burkina-faso"
         },
         "bbox": [-1.52667, 12.372262, -1.52667, 12.372262],
         "geometry": {
@@ -6019,7 +6149,8 @@
             "ls_name": "Sarajevo",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bosnia-and-herzegovina"
         },
         "bbox": [18.383002, 43.850022, 18.383002, 43.850022],
         "geometry": {
@@ -6065,7 +6196,8 @@
             "ls_name": "Naypyidaw",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-burma"
         },
         "bbox": [96.116673, 19.768503, 96.116673, 19.768503],
         "geometry": {
@@ -6111,7 +6243,8 @@
             "ls_name": "Nukualofa",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-tonga"
         },
         "bbox": [-175.220564, -21.138512, -175.220564, -21.138512],
         "geometry": {
@@ -6157,7 +6290,8 @@
             "ls_name": "Hargeysa",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [44.06531, 9.560022, 44.06531, 9.560022],
         "geometry": {
@@ -6203,7 +6337,8 @@
             "ls_name": "Victoria4",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-seychelles"
         },
         "bbox": [55.44999, -4.616632, 55.44999, -4.616632],
         "geometry": {
@@ -6249,7 +6384,8 @@
             "ls_name": "Sao Tome",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-sao-tome-and-principe"
         },
         "bbox": [6.733325, 0.333402, 6.733325, 0.333402],
         "geometry": {
@@ -6295,7 +6431,8 @@
             "ls_name": "Apia",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-american-samoa"
         },
         "bbox": [-171.738642, -13.841545, -171.738642, -13.841545],
         "geometry": {
@@ -6341,7 +6478,8 @@
             "ls_name": "Valletta",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-malta"
         },
         "bbox": [14.514711, 35.899732, 14.514711, 35.899732],
         "geometry": {
@@ -6387,7 +6525,8 @@
             "ls_name": "Male",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-maldives"
         },
         "bbox": [73.499947, 4.166708, 73.499947, 4.166708],
         "geometry": {
@@ -6433,7 +6572,8 @@
             "ls_name": "Jerusalem",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-israel"
         },
         "bbox": [35.206626, 31.778408, 35.206626, 31.778408],
         "geometry": {
@@ -6479,7 +6619,8 @@
             "ls_name": "Praia",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-cape-verde"
         },
         "bbox": [-23.516689, 14.916698, -23.516689, 14.916698],
         "geometry": {
@@ -6525,7 +6666,8 @@
             "ls_name": "Nassau",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-the-bahamas"
         },
         "bbox": [-77.350044, 25.08339, -77.350044, 25.08339],
         "geometry": {
@@ -6571,7 +6713,8 @@
             "ls_name": "Nicosia",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 5
+            "min_zoom": 5,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-cyprus"
         },
         "bbox": [33.366635, 35.166676, 33.366635, 35.166676],
         "geometry": {
@@ -6617,7 +6760,8 @@
             "ls_name": "Wellington",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-new-zealand"
         },
         "bbox": [174.783266, -41.299988, 174.783266, -41.299988],
         "geometry": {
@@ -6663,7 +6807,8 @@
             "ls_name": "Hanoi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-vietnam"
         },
         "bbox": [105.848068, 21.035273, 105.848068, 21.035273],
         "geometry": {
@@ -6709,7 +6854,8 @@
             "ls_name": "Ankara",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-turkey"
         },
         "bbox": [32.862446, 39.929184, 32.862446, 39.929184],
         "geometry": {
@@ -6755,7 +6901,8 @@
             "ls_name": "Budapest",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-hungary"
         },
         "bbox": [19.081375, 47.501952, 19.081375, 47.501952],
         "geometry": {
@@ -6801,7 +6948,8 @@
             "ls_name": "Sanaa",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-yemen"
         },
         "bbox": [44.204648, 15.356679, 44.204648, 15.356679],
         "geometry": {
@@ -6847,7 +6995,8 @@
             "ls_name": "Bucharest",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-romania"
         },
         "bbox": [26.098001, 44.435318, 26.098001, 44.435318],
         "geometry": {
@@ -6893,7 +7042,8 @@
             "ls_name": "Damascus",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-syria"
         },
         "bbox": [36.29805, 33.50198, 36.29805, 33.50198],
         "geometry": {
@@ -6939,7 +7089,8 @@
             "ls_name": "Lisbon",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-portugal"
         },
         "bbox": [-9.146812, 38.724669, -9.146812, 38.724669],
         "geometry": {
@@ -6985,7 +7136,8 @@
             "ls_name": "Khartoum",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-sudan"
         },
         "bbox": [32.532233, 15.590024, 32.532233, 15.590024],
         "geometry": {
@@ -7031,7 +7183,8 @@
             "ls_name": "Oslo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-norway"
         },
         "bbox": [10.748033, 59.918636, 10.748033, 59.918636],
         "geometry": {
@@ -7077,7 +7230,8 @@
             "ls_name": "Warsaw",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-poland"
         },
         "bbox": [20.998054, 52.251946, 20.998054, 52.251946],
         "geometry": {
@@ -7123,7 +7277,8 @@
             "ls_name": "Pyongyang",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-north-korea"
         },
         "bbox": [125.752745, 39.021385, 125.752745, 39.021385],
         "geometry": {
@@ -7169,7 +7324,8 @@
             "ls_name": "Dar es Salaam",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-tanzania"
         },
         "bbox": [39.266396, -6.798067, 39.266396, -6.798067],
         "geometry": {
@@ -7215,7 +7371,8 @@
             "ls_name": "Dublin2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-ireland"
         },
         "bbox": [-6.250852, 53.335007, -6.250852, 53.335007],
         "geometry": {
@@ -7261,7 +7418,8 @@
             "ls_name": "Monrovia",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-liberia"
         },
         "bbox": [-10.79966, 6.314582, -10.79966, 6.314582],
         "geometry": {
@@ -7307,7 +7465,8 @@
             "ls_name": "Kuala Lumpur",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-malaysia"
         },
         "bbox": [101.698037, 3.168612, 101.698037, 3.168612],
         "geometry": {
@@ -7353,7 +7512,8 @@
             "ls_name": "Havana",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-cuba"
         },
         "bbox": [-82.366128, 23.133905, -82.366128, 23.133905],
         "geometry": {
@@ -7399,7 +7559,8 @@
             "ls_name": "Prague",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-czech-republic"
         },
         "bbox": [14.464034, 50.085283, 14.464034, 50.085283],
         "geometry": {
@@ -7445,7 +7606,8 @@
             "ls_name": "Kuwait",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-kuwait"
         },
         "bbox": [47.976355, 29.371663, 47.976355, 29.371663],
         "geometry": {
@@ -7491,7 +7653,8 @@
             "ls_name": "Santo Domingo",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-dominican-republic"
         },
         "bbox": [-69.902031, 18.472019, -69.902031, 18.472019],
         "geometry": {
@@ -7537,7 +7700,8 @@
             "ls_name": "Accra",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-ghana"
         },
         "bbox": [-0.218662, 5.55198, -0.218662, 5.55198],
         "geometry": {
@@ -7583,7 +7747,8 @@
             "ls_name": "Tripoli1",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-libya"
         },
         "bbox": [13.180012, 32.8925, 13.180012, 32.8925],
         "geometry": {
@@ -7629,7 +7794,8 @@
             "ls_name": "Tel Aviv-Yafo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-israel"
         },
         "bbox": [34.768066, 32.081937, 34.768066, 32.081937],
         "geometry": {
@@ -7675,7 +7841,8 @@
             "ls_name": "Helsinki",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-finland"
         },
         "bbox": [24.93218, 60.177509, 24.93218, 60.177509],
         "geometry": {
@@ -7721,7 +7888,8 @@
             "ls_name": "Copenhagen",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-denmark"
         },
         "bbox": [12.56154, 55.68051, 12.56154, 55.68051],
         "geometry": {
@@ -7767,7 +7935,8 @@
             "ls_name": "Abidjan",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-ivory-coast"
         },
         "bbox": [-4.041994, 5.321943, -4.041994, 5.321943],
         "geometry": {
@@ -7813,7 +7982,8 @@
             "ls_name": "Brasilia",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-brazil"
         },
         "bbox": [-47.917998, -15.781394, -47.917998, -15.781394],
         "geometry": {
@@ -7859,7 +8029,8 @@
             "ls_name": "Brussels",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4.7
+            "min_zoom": 4.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-belgium"
         },
         "bbox": [4.331371, 50.835263, 4.331371, 50.835263],
         "geometry": {
@@ -7905,7 +8076,8 @@
             "ls_name": "Dhaka",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-bangladesh"
         },
         "bbox": [90.406634, 23.725006, 90.406634, 23.725006],
         "geometry": {
@@ -7951,7 +8123,8 @@
             "ls_name": "Luanda",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-angola"
         },
         "bbox": [13.232481, -8.83634, 13.232481, -8.83634],
         "geometry": {
@@ -7997,7 +8170,8 @@
             "ls_name": "Algiers",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-unknown/coronavirus-algeria"
         },
         "bbox": [3.048607, 36.765011, 3.048607, 36.765011],
         "geometry": {
@@ -8043,7 +8217,8 @@
             "ls_name": "Rangoon",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 4
+            "min_zoom": 4,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-burma"
         },
         "bbox": [96.164732, 16.7853, 96.164732, 16.7853],
         "geometry": {
@@ -8089,7 +8264,8 @@
             "ls_name": "San Francisco1",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.7
+            "min_zoom": 2.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-122.417169, 37.769196, -122.417169, 37.769196],
         "geometry": {
@@ -8135,7 +8311,8 @@
             "ls_name": "Denver",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-104.985962, 39.741134, -104.985962, 39.741134],
         "geometry": {
@@ -8181,7 +8358,8 @@
             "ls_name": "Houston",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-95.341925, 29.82192, -95.341925, 29.82192],
         "geometry": {
@@ -8227,7 +8405,8 @@
             "ls_name": "Miami",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-80.226052, 25.789557, -80.226052, 25.789557],
         "geometry": {
@@ -8273,7 +8452,8 @@
             "ls_name": "Atlanta",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-84.401895, 33.83196, -84.401895, 33.83196],
         "geometry": {
@@ -8319,7 +8499,8 @@
             "ls_name": "Chicago",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-87.752001, 41.831937, -87.752001, 41.831937],
         "geometry": {
@@ -8365,7 +8546,8 @@
             "ls_name": "Caracas",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-venezuela"
         },
         "bbox": [-66.918983, 10.502944, -66.918983, 10.502944],
         "geometry": {
@@ -8411,7 +8593,8 @@
             "ls_name": "Kiev",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-ukraine"
         },
         "bbox": [30.514682, 50.435313, 30.514682, 50.435313],
         "geometry": {
@@ -8457,7 +8640,8 @@
             "ls_name": "Dubayy",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-united-arab-emirates"
         },
         "bbox": [55.278028, 25.231942, 55.278028, 25.231942],
         "geometry": {
@@ -8503,7 +8687,8 @@
             "ls_name": "Tashkent",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-uzbekistan"
         },
         "bbox": [69.292987, 41.313648, 69.292987, 41.313648],
         "geometry": {
@@ -8549,7 +8734,8 @@
             "ls_name": "Madrid",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-spain"
         },
         "bbox": [-3.685298, 40.401972, -3.685298, 40.401972],
         "geometry": {
@@ -8595,7 +8781,8 @@
             "ls_name": "Geneva",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-switzerland"
         },
         "bbox": [6.140028, 46.210008, 6.140028, 46.210008],
         "geometry": {
@@ -8641,7 +8828,8 @@
             "ls_name": "Stockholm",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-sweden"
         },
         "bbox": [18.095389, 59.352706, 18.095389, 59.352706],
         "geometry": {
@@ -8687,7 +8875,8 @@
             "ls_name": "Bangkok",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-thailand"
         },
         "bbox": [100.514699, 13.751945, 100.514699, 13.751945],
         "geometry": {
@@ -8733,7 +8922,8 @@
             "ls_name": "Lima2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-peru"
         },
         "bbox": [-77.052008, -12.046067, -77.052008, -12.046067],
         "geometry": {
@@ -8779,7 +8969,8 @@
             "ls_name": "Dakar",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-senegal"
         },
         "bbox": [-17.475076, 14.717778, -17.475076, 14.717778],
         "geometry": {
@@ -8825,7 +9016,8 @@
             "ls_name": "Johannesburg",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-africa"
         },
         "bbox": [28.028064, -26.168099, 28.028064, -26.168099],
         "geometry": {
@@ -8871,7 +9063,8 @@
             "ls_name": "Amsterdam",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-netherlands"
         },
         "bbox": [4.914694, 52.351915, 4.914694, 52.351915],
         "geometry": {
@@ -8917,7 +9110,8 @@
             "ls_name": "Casablanca",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-morocco"
         },
         "bbox": [-7.618313, 33.601922, -7.618313, 33.601922],
         "geometry": {
@@ -8963,7 +9157,8 @@
             "ls_name": "Seoul",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-south-korea"
         },
         "bbox": [126.997785, 37.568295, 126.997785, 37.568295],
         "geometry": {
@@ -9009,7 +9204,8 @@
             "ls_name": "Manila",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.7
+            "min_zoom": 2.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-3/coronavirus-philippines"
         },
         "bbox": [120.980271, 14.606105, 120.980271, 14.606105],
         "geometry": {
@@ -9055,7 +9251,8 @@
             "ls_name": "Monterrey",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-mexico"
         },
         "bbox": [-100.331931, 25.671941, -100.331931, 25.671941],
         "geometry": {
@@ -9101,7 +9298,8 @@
             "ls_name": "Berlin",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.7
+            "min_zoom": 2.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-germany"
         },
         "bbox": [13.399603, 52.523765, 13.399603, 52.523765],
         "geometry": {
@@ -9147,7 +9345,8 @@
             "ls_name": "Urumqi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/novel-coronavirus-china"
         },
         "bbox": [87.57306, 43.806958, 87.57306, 43.806958],
         "geometry": {
@@ -9193,7 +9392,8 @@
             "ls_name": "Chengdu",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/novel-coronavirus-china"
         },
         "bbox": [104.068074, 30.671946, 104.068074, 30.671946],
         "geometry": {
@@ -9239,7 +9439,8 @@
             "ls_name": "Osaka",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-japan"
         },
         "bbox": [135.458199, 34.751981, 135.458199, 34.751981],
         "geometry": {
@@ -9285,7 +9486,8 @@
             "ls_name": "Kinshasa",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [15.313026, -4.327778, 15.313026, -4.327778],
         "geometry": {
@@ -9331,7 +9533,8 @@
             "ls_name": "New Delhi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-india"
         },
         "bbox": [77.19998, 28.600023, 77.19998, 28.600023],
         "geometry": {
@@ -9377,7 +9580,8 @@
             "ls_name": "Bangalore",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-india"
         },
         "bbox": [77.558064, 12.971941, 77.558064, 12.971941],
         "geometry": {
@@ -9423,7 +9627,8 @@
             "ls_name": "Athens2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-greece"
         },
         "bbox": [23.731375, 37.985272, 23.731375, 37.985272],
         "geometry": {
@@ -9469,7 +9674,8 @@
             "ls_name": "Baghdad",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-iraq"
         },
         "bbox": [44.391923, 33.340594, 44.391923, 33.340594],
         "geometry": {
@@ -9515,7 +9721,8 @@
             "ls_name": "Addis Ababa",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-ethiopia"
         },
         "bbox": [38.698059, 9.035256, 38.698059, 9.035256],
         "geometry": {
@@ -9561,7 +9768,8 @@
             "ls_name": "Tehran",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-iran"
         },
         "bbox": [51.422398, 35.673889, 51.422398, 35.673889],
         "geometry": {
@@ -9607,7 +9815,8 @@
             "ls_name": "Vancouver2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-canada"
         },
         "bbox": [-123.12359, 49.275362, -123.12359, 49.275362],
         "geometry": {
@@ -9653,7 +9862,8 @@
             "ls_name": "Toronto",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-canada"
         },
         "bbox": [-79.421967, 43.701926, -79.421967, 43.701926],
         "geometry": {
@@ -9699,7 +9909,8 @@
             "ls_name": "Buenos Aires",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-argentina"
         },
         "bbox": [-58.399477, -34.600556, -58.399477, -34.600556],
         "geometry": {
@@ -9745,7 +9956,8 @@
             "ls_name": "Kabul",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-afghanistan"
         },
         "bbox": [69.181314, 34.518636, 69.181314, 34.518636],
         "geometry": {
@@ -9791,7 +10003,8 @@
             "ls_name": "Vienna",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-austria"
         },
         "bbox": [16.364693, 48.201961, 16.364693, 48.201961],
         "geometry": {
@@ -9837,7 +10050,8 @@
             "ls_name": "Melbourne2",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-australia"
         },
         "bbox": [144.97307, -37.818085, 144.97307, -37.818085],
         "geometry": {
@@ -9883,7 +10097,8 @@
             "ls_name": "Taipei",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-taiwan"
         },
         "bbox": [121.568333, 25.035833, 121.568333, 25.035833],
         "geometry": {
@@ -9929,7 +10144,8 @@
             "ls_name": "Auckland",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-new-zealand"
         },
         "bbox": [174.763027, -36.848055, 174.763027, -36.848055],
         "geometry": {
@@ -9975,7 +10191,8 @@
             "ls_name": "Los Angeles1",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2
+            "min_zoom": 2,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-118.181926, 33.991924, -118.181926, 33.991924],
         "geometry": {
@@ -10021,7 +10238,8 @@
             "ls_name": "Washington, D.C.",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-77.011364, 38.901495, -77.011364, 38.901495],
         "geometry": {
@@ -10067,7 +10285,8 @@
             "ls_name": "New York",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/noticescovid19"
         },
         "bbox": [-73.981963, 40.751925, -73.981963, 40.751925],
         "geometry": {
@@ -10113,7 +10332,8 @@
             "ls_name": "London2",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-united-kingdom"
         },
         "bbox": [-0.118668, 51.501941, -0.118668, 51.501941],
         "geometry": {
@@ -10159,7 +10379,8 @@
             "ls_name": "Istanbul",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-turkey"
         },
         "bbox": [29.008056, 41.106942, 29.008056, 41.106942],
         "geometry": {
@@ -10205,7 +10426,8 @@
             "ls_name": "Riyadh",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-saudi-arabia"
         },
         "bbox": [46.770796, 24.642779, 46.770796, 24.642779],
         "geometry": {
@@ -10251,7 +10473,8 @@
             "ls_name": "Cape Town",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-africa"
         },
         "bbox": [18.433042, -33.918065, 18.433042, -33.918065],
         "geometry": {
@@ -10297,7 +10520,8 @@
             "ls_name": "Moscow",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-russia"
         },
         "bbox": [37.613577, 55.75411, 37.613577, 55.75411],
         "geometry": {
@@ -10343,7 +10567,8 @@
             "ls_name": "Mexico City",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-mexico"
         },
         "bbox": [-99.132934, 19.444388, -99.132934, 19.444388],
         "geometry": {
@@ -10389,7 +10614,8 @@
             "ls_name": "Lagos",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2
+            "min_zoom": 2,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-nigeria"
         },
         "bbox": [3.389585, 6.445208, 3.389585, 6.445208],
         "geometry": {
@@ -10435,7 +10661,8 @@
             "ls_name": "Rome",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.7
+            "min_zoom": 2.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-italy"
         },
         "bbox": [12.481313, 41.897901, 12.481313, 41.897901],
         "geometry": {
@@ -10481,7 +10708,8 @@
             "ls_name": "Beijing",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/novel-coronavirus-china"
         },
         "bbox": [116.38634, 39.930838, 116.38634, 39.930838],
         "geometry": {
@@ -10527,7 +10755,8 @@
             "ls_name": "Nairobi",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2
+            "min_zoom": 2,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-kenya"
         },
         "bbox": [36.814711, -1.281401, 36.814711, -1.281401],
         "geometry": {
@@ -10573,7 +10802,8 @@
             "ls_name": "Jakarta",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-indonesia"
         },
         "bbox": [106.827492, -6.172472, 106.827492, -6.172472],
         "geometry": {
@@ -10619,7 +10849,8 @@
             "ls_name": "Bogota",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-colombia"
         },
         "bbox": [-74.08529, 4.598369, -74.08529, 4.598369],
         "geometry": {
@@ -10665,7 +10896,8 @@
             "ls_name": "Cairo",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-egypt"
         },
         "bbox": [31.248022, 30.051906, 31.248022, 30.051906],
         "geometry": {
@@ -10711,7 +10943,8 @@
             "ls_name": "Shanghai",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2
+            "min_zoom": 2,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/novel-coronavirus-china"
         },
         "bbox": [121.434559, 31.218398, 121.434559, 31.218398],
         "geometry": {
@@ -10757,7 +10990,8 @@
             "ls_name": "Tokyo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-japan"
         },
         "bbox": [139.749462, 35.686963, 139.749462, 35.686963],
         "geometry": {
@@ -10803,7 +11037,8 @@
             "ls_name": "Mumbai",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-india"
         },
         "bbox": [72.855043, 19.018936, 72.855043, 19.018936],
         "geometry": {
@@ -10849,7 +11084,8 @@
             "ls_name": "Paris",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-france"
         },
         "bbox": [2.331389, 48.868639, 2.331389, 48.868639],
         "geometry": {
@@ -10895,7 +11131,8 @@
             "ls_name": "Santiago3",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 2
+            "min_zoom": 2,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-chile"
         },
         "bbox": [-70.668987, -33.448068, -70.668987, -33.448068],
         "geometry": {
@@ -10941,7 +11178,8 @@
             "ls_name": "Calcutta",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3.7
+            "min_zoom": 3.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-india"
         },
         "bbox": [88.32273, 22.496915, 88.32273, 22.496915],
         "geometry": {
@@ -10987,7 +11225,8 @@
             "ls_name": "Rio de Janeiro",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-brazil"
         },
         "bbox": [-43.226967, -22.923077, -43.226967, -22.923077],
         "geometry": {
@@ -11033,7 +11272,8 @@
             "ls_name": "Sao Paolo",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-brazil"
         },
         "bbox": [-46.626966, -23.556734, -46.626966, -23.556734],
         "geometry": {
@@ -11079,7 +11319,8 @@
             "ls_name": "Sydney1",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 1.7
+            "min_zoom": 1.7,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-1/coronavirus-australia"
         },
         "bbox": [151.183234, -33.918065, 151.183234, -33.918065],
         "geometry": {
@@ -11125,7 +11366,8 @@
             "ls_name": "Singapore",
             "ls_match": 1,
             "checkme": 5,
-            "min_zoom": 2.1
+            "min_zoom": 2.1,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-singapore"
         },
         "bbox": [103.853875, 1.294979, 103.853875, 1.294979],
         "geometry": {
@@ -11171,7 +11413,8 @@
             "ls_name": "Hong Kong",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": 3
+            "min_zoom": 3,
+            "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-2/coronavirus-hong-kong"
         },
         "bbox": [114.183063, 22.306927, 114.183063, 22.306927],
         "geometry": {
