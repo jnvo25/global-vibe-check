@@ -82,10 +82,6 @@ function Globe() {
             .then((res) => {
                 countryName = countryCorrection(countryName);
                 setVacStats(res[(res.findIndex((obj) => { return obj.Country === countryName; }))]);
-                console.log(vacStats);
-                if (vacStats === undefined) {
-                    //setShow(false);
-                } 
                 
                 setLoading(false);
             })
@@ -109,7 +105,7 @@ function Globe() {
                 console.log(error);
             });
 
-
+        setLoading(false);
     }
 
     function colorByRisk(risk) {
