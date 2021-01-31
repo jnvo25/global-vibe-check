@@ -1,7 +1,9 @@
 import React from 'react';
-import Stars from '../components/Stars.jsx';
-
 import { Container, Row, Col, Card } from 'react-bootstrap';
+
+import Stars from '../components/Stars.jsx';
+import cartoon from '../assets/earth_dead.png';
+
 
 
 class CovidStats extends React.Component {
@@ -32,8 +34,6 @@ class CovidStats extends React.Component {
             .catch((err) => console.log(err));
     }
 
-
-
     render() {
 
         function getCurrentDateTime() {
@@ -45,24 +45,29 @@ class CovidStats extends React.Component {
 
             <div class="covid-stats-container">
                 <Stars />
+                <img src={cartoon} style={{
+                    position: "absolute",
+                    left: "42%",
+                    top: "50%",
+                    height: "40%",
+                    width: "20%",
+                }} alt="" />
                 <div className="wrapper">
-                    
-
 
                     <header>
                         <div className="Heading-for-the-page">
-                            <h1 class="text-white font-weight-light pb-1 pt-1 text-middle" ><div style={{color: "#c64dff"}}>The Vibes are Horrendous  (Global Statistics)</div></h1>
-                            <h6 class="text-light font-weight-light pb-1 pt-1 text-middle" ><div style={{color: "#c4c4c4"}}>Last update: {getCurrentDateTime()}</div></h6>
+                            <h1 class="text-white font-weight-light pb-1 pt-1 text-middle" ><div style={{ color: "#c64dff" }}>The Vibes are Horrendous  (Global Statistics)</div></h1>
+                            <h6 class="text-light font-weight-light pb-1 pt-1 text-middle" ><div style={{ color: "#c4c4c4" }}>Last update: {getCurrentDateTime()}</div></h6>
                         </div>
                     </header>
                     <div className="pt-5"></div>
-                    
+
                     <div className="Both-cards-with-text">
                         <Container>
                             <Row>
                                 <Col md={8}>
 
-                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)' , borderRadius: "30px"}}>
+                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)', borderRadius: "30px" }}>
                                         <Card.Body>
                                             <Card.Text>
 
@@ -83,7 +88,7 @@ class CovidStats extends React.Component {
                                 </Col>
 
                                 <Col>
-                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)', borderRadius: "30px"}}>
+                                    <Card style={{ height: '25rem', width: '25rem', backgroundImage: 'linear-gradient(#dbb8ff, #c524ff)', borderRadius: "30px" }}>
                                         <Card.Body>
                                             <Card.Text>
 
