@@ -21,7 +21,7 @@ export default function Landing() {
     const numStars = 40;
     const stars = [];
     for (let i = 0; i < numStars; i++) {
-        stars.push(<span className="star" style={generateRandomStyle()}></span>);
+        stars.push(<span className="star" style={generateRandomStyle()} />);
     }
     return (
         <Container>
