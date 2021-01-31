@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import './Landing.css';
 
-function generateRandomStyle() {
+function generateRandomStars() {
     var dimensions = Math.floor(Math.random() * 10 + 1);
     return {
         position: "fixed",
@@ -21,18 +21,9 @@ function Landing() {
     const numStars = 40;
     const stars = [];
     for (let i = 0; i < numStars; i++) {
-        stars.push(<span className="star" style={generateRandomStyle()}></span>);
+        stars.push(<span className="star" style={generateRandomStars()}></span>);
     }
     return (
-<<<<<<< HEAD
-
-        <div className="landing-page">
-            {stars}
-            <div id="welcome-text">
-                <h2>Welcome to Global Vibe Check!</h2>
-                <br />
-                <p>This website has information on the covid cases, deaths and severity status of other countries around the world. Are you wondering how other are doing compared to your country? CLICK the get started button below.</p>
-=======
         <Container>
             {/*<div className="landing-page">*/}
             <div style={{paddingTop: "100px"}}>
@@ -61,7 +52,6 @@ function Landing() {
                         </LinkContainer>
                     </Col>
                 </Row>
->>>>>>> 421d947791ac3bac9bde20823b224b110333784b
             </div>
         </Container>
     );

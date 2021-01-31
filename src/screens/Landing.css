@@ -13,7 +13,7 @@
 
 #launch-btn {
     margin: 0px auto 200px auto;
-    padding: 20px 20px;
+    padding: 20px 40px;
     width: 20%;
     height: 10%;
     background: #1B6F46;
@@ -29,13 +29,6 @@
 
 .star {
     z-index: 1;
-    /*background-color: purple;*/
-    animation: glow 1s infinite alternate;
-}
-
-.landing-page{
-    padding: 100px;
-    /*background-color: purple;*/
     animation: glow 1s infinite alternate;
 }
 

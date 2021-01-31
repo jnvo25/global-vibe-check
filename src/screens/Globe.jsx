@@ -13,6 +13,7 @@ function getWindowDimensions() {
 
 
 function Globe() {
+
     const [places, setPlaces] = useState([]);
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
     const [show, setShow] = useState(false);
@@ -40,7 +41,7 @@ function Globe() {
     function handleClick(label) {
         console.log(label.properties.nameascii);
         console.log(label.properties.adm0name);
-        const countryName = label.properties.adm0name;
+        var countryName = label.properties.adm0name;
         setShow(true);
 
         setName(label.properties.nameascii);
@@ -50,6 +51,9 @@ function Globe() {
         fetch('https://covid-api.mmediagroup.fr/v1/cases')
             .then(res => res.json())
             .then((res) => {
+                if (countryName === 'United States of America') {
+                    countryName = 'US';
+                }
                 setCovidStats(res[countryName]['All']);
                 if (covidRankings === null) {
                     covidRankings = getCovidRankings(res);
@@ -69,11 +73,13 @@ function Globe() {
             })
             .then(res => res.json())
             .then((res) => {
-                if (countryName === 'USA') {
-                    countryName = 'United States of America';
+                if (countryName === 'US') {
+                    countryName = 'USA';
+                } else if (countryName === 'United Kingdom') {
+                    countryName = 'UK';
                 }
-                setVaccineStats(res[res.indexOf(res.find((c) => { return c.Country === countryName; }))]);
-                console.log(vaccineStats);
+                console.log(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
+                setVaccineStats(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
             })
             .catch((e) => console.log(e));
 
