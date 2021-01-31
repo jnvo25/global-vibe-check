@@ -10,6 +10,11 @@ function getWindowDimensions() {
     };
 }
 
+const vaccovidHeader = {
+    "x-rapidapi-key": window.env.RAPID_API_KEY,
+    "x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com",
+    "useQueryString": true
+}
 
 function Globe() {
     const [vacApiData, setVacApiData] = useState("null");
@@ -22,6 +27,7 @@ function Globe() {
     const [countryRanking, setCountryRanking] = useState("null");
     const [vacStats, setVacStats] = useState("null");
     const [isLoading, setLoading] = useState(false);
+    const [cdcUrl, setCdcUrl] = useState("null");
     var covidRankings = null;
 
     function getCovidRankings(data) {
@@ -46,6 +52,7 @@ function Globe() {
 
         setName(label.properties.nameascii);
         setCountry(countryName);
+        //setCdcUrl(label.properties.cdc_link);
 
         // Get COVID rankings by country
         fetch('https://covid-api.mmediagroup.fr/v1/cases')
@@ -65,11 +72,7 @@ function Globe() {
 
         fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
             {
-                headers: {
-                    "x-rapidapi-key": window.env.RAPID_API_KEY,
-                    "x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com",
-                    "useQueryString": true
-                }
+                headers: vaccovidHeader
             })
             .then(res => res.json())
             .then((res) => {
@@ -172,6 +175,7 @@ function Globe() {
                 countryRanking={countryRanking}
                 vacStats={vacStats}
                 isLoading = {isLoading}
+                
             />
             <Reactglobe
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"

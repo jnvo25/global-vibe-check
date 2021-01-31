@@ -6,12 +6,9 @@
 }
 
 #launch-btn {
-    margin: 0px auto 200px auto;
-    padding: 20px 40px;
-    width: 20%;
-    height: 10%;
+    padding: 10px 20px;
     background: #1B6F46;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     z-index: 10;
 }
