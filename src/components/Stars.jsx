@@ -1,5 +1,3 @@
-
-
 function Stars() {
     function generateRandomStars() {
         var dimensions = Math.floor(Math.random() * 10 + 1);

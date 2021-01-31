@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Reactglobe from 'react-globe.gl';
+
 import InfographicModal from "./GlobePage/InfographicModal";
 
 function getWindowDimensions() {

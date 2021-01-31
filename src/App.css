@@ -4,17 +4,6 @@
     font-family: 'Barlow', sans-serif;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
 .App-header {
     background-color: transparent;
     min-height: 100vh;
@@ -28,4 +17,24 @@
 
 .App-link {
     color: #61dafb;
+}
+
+.star {
+    z-index: 1;
+    animation: 3s infinite glow;
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0.3;
+        box-shadow: 0px 0px 10px;
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0px 0px 25px;
+    }
+    100% {
+        opacity: 0.3;
+        box-shadow: 0px 0px 10px;
+    }
 }

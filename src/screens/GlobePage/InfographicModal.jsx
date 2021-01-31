@@ -1,9 +1,8 @@
-import react from 'react';
-import './InfographicModal.css';
+import React from 'react';
 import {Modal, Button, Card, ListGroupItem, ListGroup, Row, Col} from 'react-bootstrap';
 import LoadingOverlay from 'react-loading-overlay';
 
-
+import './InfographicModal.css';
 
 function InfographicModal(props) {
 

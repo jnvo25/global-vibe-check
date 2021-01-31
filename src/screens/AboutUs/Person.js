@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import cartoon from '../../assets/earth_heart.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
