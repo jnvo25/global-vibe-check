@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import NavBar from './screens/NavBar.jsx'
 import Landing from './screens/Landing.jsx';
-import GlobePage from './screens/GlobePage.jsx';
 import AboutUs from './screens/AboutUs.jsx';
 import CovidGuidelines from './screens/CovidGuidelines.jsx';
 import CovidStats from './screens/CovidStats.jsx';
