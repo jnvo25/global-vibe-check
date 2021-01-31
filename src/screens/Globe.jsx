@@ -77,6 +77,8 @@ function Globe() {
                     countryName = 'USA';
                 } else if (countryName === 'United Kingdom') {
                     countryName = 'UK';
+                } else if (countryName === 'Hong Kong') {
+                    countryName = 'China';
                 }
                 console.log(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
                 setVaccineStats(res[res.indexOf(res.find((obj) => { return obj.Country === countryName; }))]);
@@ -84,6 +86,9 @@ function Globe() {
             .catch((e) => console.log(e));
 
     }
+
+    
+
     useEffect(() => {
         var data = require('../datasets/places.json');
         setPlaces(data.features);

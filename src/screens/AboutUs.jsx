@@ -1,14 +1,19 @@
 import react from 'react';
-import '../App.css';
-import './AboutUs.css';
-import Person from './AboutUs/Person';
-import cartoon from '../assets/earth_heart.png';
 import { IconContext } from 'react-icons/lib';
 
+import '../App.css';
+import './AboutUs.css';
+import Stars from '../components/Stars.jsx';
+import Person from './AboutUs/Person';
+import cartoon from '../assets/earth_heart.png';
+
+
 function AboutUs() {
+    
     return ( 
     <IconContext.Provider value={{ className: 'react-icons' }}>
         <div>
+            <Stars />
             <img src={cartoon} className="earth-cartoon" alt="" />
             <Person
                 name={"Annahi Paez"}

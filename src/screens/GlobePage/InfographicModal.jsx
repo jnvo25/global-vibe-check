@@ -28,7 +28,7 @@ function InfographicModal(props) {
             return "horrendous";
         } else if (risk >= 0.15) {
             return "off";
-        } else if (risk > 0.05) {
+        } else if (risk >= 0.05) {
             return "aight";
         } else {
             return "immaculate";
@@ -40,7 +40,7 @@ function InfographicModal(props) {
             return "purple";
         } else if (risk >= 0.15) {
             return "red";
-        } else if (risk > 0.05) {
+        } else if (risk >= 0.05) {
             return "orange";
         } else {
             return "yellow";
@@ -61,7 +61,7 @@ function InfographicModal(props) {
                         <Card.Img variant="top" className="card-image" src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80" />
                         <Card.Body>
 
-                            <Card.Title>{props.name}, {props.country} | <div style={{color: getColor(props.vaccineStats.Infection_Risk)}}>Vibes are {getVibes()}</div></Card.Title>
+                            <Card.Title>{props.name}, {props.country} | <div style={{color: getColor(props.vaccineStats.Infection_Risk)}}>Vibes are {getVibes(props.vaccineStats.Infection_Risk)}</div></Card.Title>
 
                             
                             <Card.Text>
@@ -76,7 +76,7 @@ function InfographicModal(props) {
                             <ListGroupItem></ListGroupItem>
                         </ListGroup>
                         <Card.Body className="card-links">
-                            <Card.Link href="https://covid.cdc.gov/covid-data-tracker/#global-counts-rates">CDC Analysis</Card.Link>
+                            <Card.Link href="https://wwwnc.cdc.gov/travel/noticescovid19">CDC Analysis</Card.Link>
                             <Card.Link href="#">Travel Forms</Card.Link>
                         </Card.Body>
                     </Card>
