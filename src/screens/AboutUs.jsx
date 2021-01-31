@@ -42,7 +42,7 @@ function AboutUs() {
                 name={"Jonathan Vo"}
                 position={"Full-stack Developer"}
                 text={"I love to make websites, beef jerky, and leather goods."}
-                linkedin={"www.linkedin.com/in/jnvo25"}
+                linkedin={"https://www.linkedin.com/in/jnvo25"}
                 github={"https://github.com/jnvo25"}
                 backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Flizardprofile.png?alt=media&token=08a49bfb-7bb7-4cd2-a9f6-2183d0d231ac"}
             />
