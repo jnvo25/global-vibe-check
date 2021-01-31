@@ -10,7 +10,7 @@ export default function NavBar() {
     // const [isOpen, setOpen] = useState(false);
 
     return(
-        <Navbar sticky="top" variant="dark" expand="lg" className="bottom-nav pb-0">
+        <Navbar sticky="top" variant="dark" expand="lg" className="bottom-nav pb-0" >
             <LinkContainer to="/" exact>
                 <Navbar.Brand>
                     <img className="brand" 

@@ -53,7 +53,8 @@ function Globe() {
         setName(label.properties.nameascii);
         setCountry(countryName);
         setCdcUrl(label.properties.cdc_link);
-
+        
+        
         // Get COVID rankings by country
         fetch('https://covid-api.mmediagroup.fr/v1/cases')
             .then(res => res.json())
@@ -78,11 +79,15 @@ function Globe() {
             .then((res) => {
                 countryName = countryCorrection(countryName);
                 setVacStats(res[(res.findIndex((obj) => { return obj.Country === countryName; }))]);
+                console.log(vacStats);
+                if (vacStats === undefined) {
+                    //setShow(false);
+                } 
                 
                 setLoading(false);
             })
             .catch((e) => console.log(e));
-
+        
     }
 
     function colorByRisk(risk) {
