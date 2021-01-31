@@ -9,8 +9,12 @@ This immaculate team of four decided to vibe check Covid-19 around the world.
 
 We used
 [Figma](https://www.figma.com/file/uUWwKVkRFtQbPUknbFNPtA/Prototype?node-id=0%3A1) to prototype our web app to have the most vibes.
+
 [ThreeJS Globe Visualization](https://github.com/vasturiano/three-globe) to include an interactive globe so that a user may select cities.
-[Name](google.com) to extract Covid-19 data. 
+
+[Covid-API](https://covid-api.mmediagroup.fr/v1/cases) to extract Covid-19 data. 
+
+[VACCOVID](https://rapidapi.com/vaccovidlive-vaccovidlive-default/api/vaccovid-coronavirus-vaccine-and-treatment-tracker/details) to extract Covid-19 data.
 
 ## Global Vibe Check Demo
 
