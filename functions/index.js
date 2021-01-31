@@ -6,51 +6,42 @@ const functions = require('firebase-functions');
 // exports.helloWorld = functions.https.onRequest((request, response) => {
 //  response.send("Hello from Firebase!");
 // });
+const express = require('express');
+const cors = require('cors');
+const app = express();
 
-// SAMPLE CODE FOR FUNCTION ############################################################################################
-// const cors = require('cors')({origin: true});
-//
-// exports.sendEmail = functions.https.onRequest(async (req, res) => {
-//     try {
-//         cors(req, res, async () => {
-//             var data = req.body;
-//             const sgMail = require('@sendgrid/mail');
-//             const msg = {
-//                 to: 'mojojojovovo@gmail.com',
-//                 from: 'info@law-site.com',
-//                 template_id: 'd-17318c6f3ed540688dd1f890c705ead3',
-//                 dynamic_template_data: {
-//                     resp_name: data.name,
-//                     resp_email: data.email,
-//                     resp_phone: data.phone,
-//                     resp_message: data.message
-//                 },
-//             };
-//             await sgMail.send(msg)
-//             res.status(200).send();
-//         });
-//     } catch(error) {
-//         res.status(500).send(error);
-//     }
-// })
-// END OF SAMPLE #######################################################################################################
+app.use(cors());
 
-exports.sendPhoto = functions.https.onRequest(async (req, res) => {
-    try {
-        cors(req, res, async () => {
-            fetch('https://api.unsplash.com/',
-                {
-                    headers: {
-                        "query": req.body,
-                        "orientation": "landscape",
-                        "client_id": window.env.UNSPLASH_API_KEY
-                    }
-                })
-                .then(res => console.log("haaalp" + res.json()))
+async function call (location, apikey) {
+    var axios = require('axios');
 
-                .catch((e) => console.log(e));
+    var config = {
+        method: 'get',
+        url: 'https://api.unsplash.com/search/photos?query=' + location + '&orientation=landscape&client_id=2gcR-F77X5rSxovlG-Y124BBpDAIEIGx14l60BQY5v0',
+        headers: {
+            'query': location,
+            'orientation': 'landscape',
+            'client_id': apikey
+        }
+    };
+
+    const data = await axios(config)
+        .then(function (response) {
+            return response.data.results[0].urls.small;
+        })
+        .catch(function (error) {
+            console.log("Error in call function: " + error);
         });
-    } catch(error) {
-            res.status(500).send(error);
-    }
+    return data;
+}
+
+async function run(req, res) {
+    const data = await call(req.query.location, req.query.apikey);
+    res.send(data);
+}
+
+app.get('/', (req, res) => {
+    run(req, res);
 })
+
+exports.sendPhoto = functions.https.onRequest(app);

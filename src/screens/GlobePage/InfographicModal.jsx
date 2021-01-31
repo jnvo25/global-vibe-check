@@ -55,7 +55,6 @@ function InfographicModal(props) {
         }
         return "https://www.lonelyplanet.com/" + country.toLowerCase().split(' ').join('-') + '/' + city.toLowerCase().split(' ').join('-');
     }
-
     return (
         <div>
             <Modal
@@ -72,7 +71,7 @@ function InfographicModal(props) {
                 <Modal.Header closeButton>
                 </Modal.Header>
                     <Card>
-                        <Card.Img variant="top" className="card-image" src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80" />
+                        <Card.Img variant="top" className="card-image" src={props.imageURL.replace(/['"]+/g, '')} />
                         <Card.Title style={{padding: "20px 0px 0px 20px", color: props.vacStats !== undefined ? colorByRisk(props.vacStats.Infection_Risk) : "gray"}}>{props.name}, {props.country} | Vibes are {props.vacStats !== undefined ? getVibes(props.vacStats.Infection_Risk) : "..not found"}</Card.Title>
                         <Card.Body>
 
