@@ -1,16 +1,27 @@
 .welcome-text {
-    background-color: #1C4772;
-    border-radius: 30px;
+    background: black;
+    border: solid 1px white;
     position: relative;
     z-index: 10;
 }
 
+.welcome-text:hover{
+    box-shadow:
+    0 0 30px 5px #fff,  /* inner white */
+    0 0 50px 10px #f0f, /* middle magenta */
+    0 0 70px 15px #0ff; /* outer cyan */
+}
+
 #launch-btn {
     padding: 10px 20px;
-    background: #1B6F46;
-    border-radius: 30px;
-    border: none;
+    background: black;
+    border: solid 1px white;
     z-index: 10;
+}
+
+#launch-btn:hover {
+    background-color: white;
+    color: black;
 }
 
 #launch-btn a {

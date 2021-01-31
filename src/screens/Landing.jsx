@@ -18,7 +18,7 @@ export default function Landing() {
                 </Row>
                 <Row>
                     <Col>
-                        <Card className="mx-auto pt-4 pb-2 pl-5 pr-5 welcome-text" style={{backgroundColor: "#1C4772", width: "30em"}}>
+                        <Card className="mx-auto pt-4 pb-2 pl-5 pr-5 welcome-text" style={{backgroundColor: "black", width: "30em"}}>
                             <Card.Title>
                                 How are countries around the world doing in terms of COVID-19 cases?
                             </Card.Title>
