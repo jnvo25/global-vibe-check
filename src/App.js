@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import NavBar from './screens/NavBar.jsx'
+import NavBar from './components/NavBar.jsx'
 import Landing from './screens/Landing.jsx';
 import AboutUs from './screens/AboutUs.jsx';
 import CovidGuidelines from './screens/CovidGuidelines.jsx';
