@@ -52,7 +52,7 @@ function Globe() {
 
         setName(label.properties.nameascii);
         setCountry(countryName);
-        //setCdcUrl(label.properties.cdc_link);
+        setCdcUrl(label.properties.cdc_link);
 
         // Get COVID rankings by country
         fetch('https://covid-api.mmediagroup.fr/v1/cases')
@@ -69,7 +69,7 @@ function Globe() {
             })
             .catch((e) => console.log(e));
 
-
+        // Get COVID statistics for each country: new cases, active cases, etc
         fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
             {
                 headers: vaccovidHeader
@@ -175,7 +175,7 @@ function Globe() {
                 countryRanking={countryRanking}
                 vacStats={vacStats}
                 isLoading = {isLoading}
-                
+                cdcUrl = {cdcUrl}
             />
             <Reactglobe
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"

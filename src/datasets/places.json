@@ -3235,7 +3235,7 @@
             "ls_name": "Pretoria",
             "ls_match": 1,
             "checkme": 0,
-            "min_zoom": ,
+            "min_zoom": 4,
             "cdc_link": "https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-south-africa"
         },
         "bbox": [28.227483, -25.704975, 28.227483, -25.704975],
