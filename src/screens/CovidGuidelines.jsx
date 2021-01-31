@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import image from '../assets/earth_mask.png';
 import CovidLevel from '../components/CovidLevel.jsx';
 import './CovidGuidelines.css';
 
@@ -32,10 +32,11 @@ function CovidGuidelines() {
                 criteria="0-5 new cases per 100,000 people in the past month"
                 travelWarning="“All travelers should wear a mask, stay at least 6 feet/2 meters from people who are not from your travel group, avoid crowds, wash their hands often or use hand sanitizer, and watch their health for signs of illness.”" 
             />
+            <img src={image} id="earth-cartoon-mask" alt="" />
             <br />
             <br />
             <p id="cdc">Information provided from the Center for Disease Control. Learn more at cdc.gov</p>
-            <br />
+            
         </div>
     );
 }
