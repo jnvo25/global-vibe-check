@@ -73,13 +73,7 @@ function Globe() {
             })
             .then(res => res.json())
             .then((res) => {
-                if (countryName === 'US') {
-                    countryName = 'USA';
-                } else if (countryName === 'United Kingdom') {
-                    countryName = 'UK';
-                } else if (countryName === 'Hong Kong') {
-                    countryName = 'China';
-                }
+                countryName = countryCorrection(countryName);
                 setVacStats(res[(res.findIndex((obj) => { return obj.Country === countryName; }))]);
                 
                 setLoading(false);

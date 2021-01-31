@@ -3,13 +3,13 @@ import React from 'react';
 import image from '../assets/earth_mask.png';
 import CovidLevel from '../components/CovidLevel.jsx';
 import Stars from '../components/Stars.jsx';
-import './CovidGuidelines.css';
+import './CovidColorGuide.css';
 
-function CovidGuidelines() {
+function CovidColorGuide() {
     return (
         <div>
             <Stars />
-            <h2 id="header">COVID-19 Guidelines</h2>
+            <h2 id="header">COVID-19 Color Key</h2>
             <CovidLevel
                 color="#B56AFF"
                 name="Widespread"
@@ -43,4 +43,4 @@ function CovidGuidelines() {
     );
 }
 
-export default CovidGuidelines;
+export default CovidColorGuide;

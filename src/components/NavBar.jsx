@@ -28,7 +28,7 @@ export default function NavBar() {
                             <NavDropdown.Item>About Us</NavDropdown.Item>
                         </LinkContainer>
                         <LinkContainer to="/guidelines">
-                            <NavDropdown.Item>Covid Guidelines</NavDropdown.Item>
+                            <NavDropdown.Item>Covid Color Info</NavDropdown.Item>
                         </LinkContainer>
                         <LinkContainer to="/stats">
                             <NavDropdown.Item>Covid Statistics</NavDropdown.Item>
