@@ -1,6 +1,7 @@
 import react from 'react';
 import './InfographicModal.css';
 import {Modal, Button, Card, ListGroupItem, ListGroup, Row, Col} from 'react-bootstrap';
+import LoadingOverlay from 'react-loading-overlay';
 
 
 
@@ -55,13 +56,19 @@ function InfographicModal(props) {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
             >
+                <LoadingOverlay
+                    active={props.isLoading}
+                    spinner
+                    text='Loading...'
+                >
                 <Modal.Header closeButton>
                 </Modal.Header>
                     <Card>
                         <Card.Img variant="top" className="card-image" src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80" />
+                        <Card.Title style={{padding: "20px 0px 0px 20px", color: colorByRisk(props.vacStats.Infection_Risk)}}>{props.name}, {props.country} | Vibes are {getVibes(props.vacStats.Infection_Risk)}</Card.Title>
                         <Card.Body>
 
-                            <Card.Title>{props.name}, {props.country} | <div style={{color: colorByRisk(props.vacStats.Infection_Risk)}}>Vibes are {getVibes(props.vacStats.Infection_Risk)}</div></Card.Title>
+                            
 
                             
                             <Card.Text>
@@ -83,6 +90,7 @@ function InfographicModal(props) {
                 <Modal.Footer>
                     <Button onClick={handleClick}>Close</Button>
                 </Modal.Footer>
+                </LoadingOverlay>
             </Modal>
         </div>
     );

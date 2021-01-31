@@ -9,8 +9,9 @@ export default function Person(props) {
         <IconContext.Provider value={{ className: 'react-icons' }}>
             <img src={cartoon} className="earth-cartoon" alt="" />
             <div className = "about-profile">
-                <div className = "about-profile-img natisha">
-                </div>
+                <div className = "about-profile-img"
+                    style={{backgroundImage: "url(" + props.backgroundURL + ")", backgroundSize: "cover"}}
+                />
                 <div className = "about-profile-text">
                     <p className = "name">{props.name} | {props.position}</p>
                     <p>{props.text}</p>
