@@ -20,7 +20,8 @@ function AboutUs() {
                 position={"UI Design"}
                 text={"I love to design websites, cook homemade food for family and friends and listen to music."}
                 linkedin={"https://www.linkedin.com/in/annahi-paez-3a7b2b192/"}
-                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fhamsterprofile.png?alt=media&token=ba99d757-a5cb-4d74-91f1-373976eb550a"}
+                github={"https://github.com/annahi-paez"}
+                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fannahi.png?alt=media&token=53441592-fb31-4825-b732-4fcd289e3ec6"}
             />
             <Person
                 name={"Philip Truong"}
@@ -28,7 +29,7 @@ function AboutUs() {
                 text={"I like to draw, listen to music, and develop websites."}
                 linkedin={"https://www.linkedin.com/in/philip-truong"}
                 github={"https://github.com/ptruong0"}
-                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fcatprofile.png?alt=media&token=4b52bed0-0d4d-42d0-8f59-91b06733549e"}
+                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fphillip.jpg?alt=media&token=17d143a0-e7ef-41aa-bf4c-42b08c115cf9"}
             />
             <Person
                 name={"Natisha Khadgi"}
@@ -36,7 +37,7 @@ function AboutUs() {
                 text={"When I am not creating websites, I like to binge period-dramas, draw digital illustrations, and nap."}
                 linkedin={"https://www.linkedin.com/in/natisha-khadgi"}
                 github={"https://github.com/natishakhadgi"}
-                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fdogprofile.png?alt=media&token=75c892ed-0f49-4729-9677-86c98624400d"}
+                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fnatisha.jpg?alt=media&token=947b09aa-9016-4bb1-87af-abf10bb691cb"}
             />
             <Person
                 name={"Jonathan Vo"}
@@ -44,7 +45,7 @@ function AboutUs() {
                 text={"I love to make websites, beef jerky, and leather goods."}
                 linkedin={"https://www.linkedin.com/in/jnvo25"}
                 github={"https://github.com/jnvo25"}
-                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Flizardprofile.png?alt=media&token=08a49bfb-7bb7-4cd2-a9f6-2183d0d231ac"}
+                backgroundURL={"https://firebasestorage.googleapis.com/v0/b/global-vibe-check.appspot.com/o/images%2Fjonathanvo.png?alt=media&token=bc4bfc03-343a-430f-9896-2fdbb9117f31"}
             />
     </div>
     </IconContext.Provider>
