@@ -66,7 +66,7 @@ function Globe() {
         fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
             {
                 headers: {
-                    "x-rapidapi-key": "3fa36d8624msh4bd96cbe38ab83ap16a05djsn3f77b6c7e687",
+                    "x-rapidapi-key": window.env.RAPID_API_KEY,
                     "x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com",
                     "useQueryString": true
                 }
@@ -145,7 +145,7 @@ function Globe() {
         fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/',
             {
                 headers: {
-                    "x-rapidapi-key": "3fa36d8624msh4bd96cbe38ab83ap16a05djsn3f77b6c7e687",
+                    "x-rapidapi-key": window.env.RAPID_API_KEY,
                     "x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com",
                     "useQueryString": true
                 }

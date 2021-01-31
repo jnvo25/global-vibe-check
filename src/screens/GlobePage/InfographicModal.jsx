@@ -79,7 +79,7 @@ function InfographicModal(props) {
 
                             <ListGroupItem>Active COVID-19 cases in {props.country}: <strong>{props.covidStats.confirmed - props.covidStats.recovered - props.covidStats.deaths}</strong></ListGroupItem>
                             <ListGroupItem>New cases (today): <strong>{props.vacStats.NewCases}</strong></ListGroupItem>
-                            <ListGroupItem>Ranked <strong>{props.countryRanking}{suffix(props.countryRanking)}</strong> in the world in active COVID-19 cases (as a percentage of the population)</ListGroupItem>
+                            <ListGroupItem>{props.country} ranked <strong>{props.countryRanking}{suffix(props.countryRanking)}</strong> in the world in active COVID-19 cases (as a percentage of the population)</ListGroupItem>
                             <ListGroupItem></ListGroupItem>
                         </ListGroup>
                         <Card.Body className="card-links">

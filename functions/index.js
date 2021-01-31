@@ -15,7 +15,6 @@ const functions = require('firebase-functions');
 //         cors(req, res, async () => {
 //             var data = req.body;
 //             const sgMail = require('@sendgrid/mail');
-//             sgMail.setApiKey('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');
 //             const msg = {
 //                 to: 'mojojojovovo@gmail.com',
 //                 from: 'info@law-site.com',
