@@ -1,5 +1,4 @@
-
-.card{
+.card {
     /* width: 450px; */
     /* display: grid; */
     grid-template-rows: 2fr 3fr;
@@ -8,48 +7,53 @@
     background: white;
 }
 
-.card-image{
+.card-image {
     grid-area: image;
     background: url("https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg");
     background-size: cover;
     /* border-radius: 20px 20px 0 0; */
 }
 
-.card-text{
+.card-text {
     grid-area: text;
     text-align: left;
 }
 
-.card-vibe{
+.card-vibe {
     font-size: 20px;
 }
 
-.card-text p{
+.card-text p {
     margin: 0;
 }
 
-.card-country{
+.card-country {
     display: flex;
     align-items: baseline;
     padding: 1em;
 }
 
-.card-country h2{
+.card-country h2 {
     color: black;
-    margin:0 3px 0 0;
+    margin: 0 3px 0 0;
 }
 
-.card-country h4{
-    margin:0 3px 0 0;
+.card-country h4 {
+    margin: 0 3px 0 0;
 }
 
-.card-description, .card-links{
+.card-description,
+.card-links {
     border-top: solid 1px lightslategray;
     padding: .5em 1em .5em 1em;
     font-size: small;
 }
 
-.card-links{
+.card-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.list-group-flush {
+    color: black;
 }
