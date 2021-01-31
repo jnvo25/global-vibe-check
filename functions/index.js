@@ -34,3 +34,23 @@ const functions = require('firebase-functions');
 //     }
 // })
 // END OF SAMPLE #######################################################################################################
+
+exports.sendPhoto = functions.https.onRequest(async (req, res) => {
+    try {
+        cors(req, res, async () => {
+            fetch('https://api.unsplash.com/',
+                {
+                    headers: {
+                        "query": req.body,
+                        "orientation": "landscape",
+                        "client_id": window.env.UNSPLASH_API_KEY
+                    }
+                })
+                .then(res => console.log("haaalp" + res.json()))
+
+                .catch((e) => console.log(e));
+        });
+    } catch(error) {
+            res.status(500).send(error);
+    }
+})
